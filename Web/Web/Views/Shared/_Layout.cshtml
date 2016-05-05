@@ -1,42 +1,218 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
-    @Styles.Render("~/Content/css")
+    <title>@ViewBag.Title Midtown Mechanical Corporation | Heating Air | Conditioning | Air Comfort</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="keywords" content="Midtown Mechanical Corporation, Midtown Mechanical Chicago, MMC, Carrier, April Aire, furnace repair, air conditioning repair, Chicago heating, hvac Chicago, hvac, heating Chicago,air condition Chicago, air condition repair Chicago, ac Chicago, furnace Chicago, furnace repair Chicago, air conditioning Chicago,gas furnace Chicago,heating residential Chicago, heating repair Chicago, ventilation Chicago, whole house vacume, heating contractor Chicago, ductwork Chicago, air condition contractor Chicago, humidifier Chicago" />
+    <meta name="description" content="Midtown Mechanical Corp. (MMC) is a full-service mechanical contractor specializing in residential and commercial HVAC, furnaces, air conditioners, humidifiers, residential boilers, custom sheetmetal work and ductwork for Chicago" />
+    <meta name="author" content="tosca ragnini" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="~/img/favicon.ico" />
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Arimo:300,400,700,400italic,700italic' />
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css' />
+    <link href='~/CSS/font-awesome.min.css' rel='stylesheet' type='text/css' />
+    <link href="~/css/bootstrap.min.css" rel="stylesheet" type='text/css' />
+    <link href="~/css/hover-dropdown-menu.css" rel="stylesheet" type='text/css' />
+    <link href="~/css/revolution-slider.css" rel="stylesheet" type='text/css' />
+    <link href="~/rs-plugin/css/settings.css" rel="stylesheet" type='text/css' />
+    <link href="~/css/animate.min.css" rel="stylesheet" type='text/css' />
+    <link href="~/css/owl/owl.carousel.css" rel="stylesheet" type='text/css' />
+    <link href="~/css/owl/owl.theme.css" rel="stylesheet" type='text/css' />
+    <link href="~/css/owl/owl.transitions.css" rel="stylesheet" type='text/css' />
+    <link href="~/css/prettyPhoto.css" rel="stylesheet" type='text/css' />
+    <link href="~/css/style.css" rel="stylesheet" type='text/css' />
+    <link href="~/css/responsive.css" rel="stylesheet" type='text/css' />
+    <link href="~/css/color.css" rel="stylesheet" type='text/css' />
+
     @Scripts.Render("~/bundles/modernizr")
+
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                </ul>
+    <div id="page">
+        <div id="top-bar" class="top-bar-section top-bar-bg-color">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="top-contact link-hover-color">
+                            <a href="tel:7737228145" class="lr-pad-20">
+                                <i class="fa fa-phone"></i> 773-722-8145
+                            </a>
+                            <a href="mailto:mmc4533@gmail.com" class="lr-pad-20">
+                                <i class="fa fa-envelope"></i> mmc4533@gmail.com
+                            </a>
+                          </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="container body-content">
-        @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
-        </footer>
-    </div>
+   
+            <header id="sticker" class="sticky-navigation">
+                <div class="sticky-menu relative">
+                    <div class="navbar navbar-default navbar-bg-light" role="navigation">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="navbar-header">
+                                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                            <span class="sr-only">Toggle navigation</span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                        </button>
+                                        <!-- Logo -->
+                                        <a class="navbar-brand img-responsive" href="#home">
+                                            <img class="site_logo" alt="MMC Logo" width="120" height="42" src="~/img/MMC-logo.jpg" />
+                                        </a>
+                                        </div>
+                                        <div class="navbar-collapse collapse">
+                                            <ul class="nav navbar-nav page-links">
+                                                <li>
+                                                    <a href="~/Index#about">About</a>
+                                                </li> 
+                                                <li>
+                                                    <a href="~/Index#heating">Heating</a>
+                                                </li>
+                                                <li>
+                                                    <a href="~/Index#cooling">Cooling</a>
+                                                </li>
+                                                <li>
+                                                    <a href="~/Index#comfort">Air Comfort</a>
+                                                </li>
+                                                <li>
+                                                    <a href="~/Index#service">service</a>
+                                                </li>
+                                           <!--    <li>
+                                                    <a data-toggle="collapse" href="#">Client Solutions</a>
+                                                    <ul class="dropdown-menu">
+                                                        <li>
+                                                            <a href="~/Index#edu-prime">Education-Prime Contractor</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="~/Index#edu-sub">Education-Sub Contractor</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="~/Index#bus-clients">Small, Medium Business</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>--> 
+                                                <li>
+                                                    <a href="~/Index#contact">Contact</a>
+                                                </li>
+                                              
+                                           </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+            </header>
 
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
-    @RenderSection("scripts", required: false)
+        <section class="slider">
+            <div class="tp-banner">
+                <ul>
+                    <li data-delay="7000" data-transition="fade" data-slotamount="7" data-masterspeed="2000">
+                        <div class="elements">
+
+                            <div class="tp-caption lft skewtotop title white" data-x="375" data-y="51" data-speed="1000" data-start="1700" data-easing="Power4.easeOut" data-endspeed="500" data-endeasing="Power1.easeIn">
+                                <img src="~/img/MMCheating.png" width="780" height="60" alt="MMC - Heating, Air Conditioning & Air Comfort Specialists" />
+                            </div>
+                            <div class="tp-caption lft skewtotop title" data-x="472" data-y="411" data-speed="1000" data-start="1900" data-easing="Power4.easeOut" data-endspeed="500" data-endeasing="Power1.easeIn">
+                                <img src="~/img/total-team.png" width="780" height="60" alt="MMC - Your Total Indoor Comfort Team" />
+                            </div>
+                            <div class="tp-caption lfr skewtoright description black hidden-xs" data-x="470" data-y="425" data-speed="1000" data-start="2040" data-easing="Power4.easeOut" data-endspeed="500" data-endeasing="Power1.easeIn" style="max-width: 600px">
+                                <p></p>
+                            </div>
+                            <div class="tp-caption lfb" data-x="70" data-y="120" data-speed="1000" data-start="2540" data-easing="Power4.easeOut" data-endspeed="500" data-endeasing="Power1.easeIn" style="z-index: 4">
+                                <img src="~/img/spring-ac-maintenance.jpg" width="400" height="400" alt="Spring Air Conditioning Maintenance" />
+                            </div>
+                            <a href="#" class="tp-caption lfb btn btn-success" data-x="402" data-y="532" data-speed="1000" data-start="2840" data-easing="Power4.easeOut" data-endspeed="500" data-endeasing="Power1.easeIn">Schedule Service</a>
+
+                        </div>
+                        <img src="~/img/water-chgo.jpg" alt="Chicago Waterfront" data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat" />
+                    </li>
+                    <!-- Slide 2
+                <li data-delay="7000" data-transition="fade" data-slotamount="7" data-masterspeed="2000">
+                    <div class="elements">
+                        <h2 class="tp-caption sft skewtotop title white" data-x="240" data-y="201" data-speed="1000" data-start="500" data-easing="Power4.easeOut" data-endspeed="400" data-endeasing="Power1.easeIn">Used Latest frameworks</h2>
+                        <div class="tp-caption lfr skewtoright description text-center hidden-xs" data-x="290" data-y="300" data-speed="1000" data-start="800" data-easing="Power4.easeOut" data-endspeed="500" data-endeasing="Power1.easeIn" style="max-width: 600px">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do usmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam dolore magna aliqua ut enim ad minim veniam.</p>
+                        </div>
+                        <h4 class="tp-caption customin customout" data-x="350" data-y="410" data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed="1200" data-start="1000" data-easing="Power3.easeInOut" data-endspeed="300" style="z-index: 5">HTML 5</h4>
+                        <div class="tp-caption customin customout" data-x="337" data-y="468" data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed="1200" data-start="1000" data-easing="Power3.easeInOut" data-endspeed="300" style="z-index: 5">
+                            <img src="img/sections/slider/rs-slider1-html5.png" width="99" height="111" alt="" />
+                        </div>
+                        <h4 class="tp-caption customin customout" data-x="560" data-y="410" data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed="1200" data-start="1200" data-easing="Power3.easeInOut" data-endspeed="300" style="z-index: 5">CSS 3</h4>
+                        <div class="tp-caption customin customout" data-x="537" data-y="468" data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed="1200" data-start="1200" data-easing="Power3.easeInOut" data-endspeed="300" style="z-index: 5">
+                            <img src="img/sections/slider/rs-slider1-css3.png" width="99" height="111" alt="" />
+                        </div>
+                        <h4 class="tp-caption customin customout" data-x="725" data-y="410" data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed="1200" data-start="1500" data-easing="Power3.easeInOut" data-endspeed="300" style="z-index: 5">Bootstrap 3.x</h4>
+                        <div class="tp-caption customin customout" data-x="737" data-y="468" data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed="1200" data-start="1500" data-easing="Power3.easeInOut" data-endspeed="300" style="z-index: 5">
+                            <img src="img/sections/slider/rs-slider1-bootstrap.png" width="99" height="111" alt="" />
+                        </div>
+                    </div>
+                    <img src="~/img/mmc-bg.jpg" alt="" data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat" />
+                </li>-->
+                    <!-- Slide 3
+                <li data-delay="10300" data-transition="fade" data-slotamount="7" data-masterspeed="2000" class="slid2">
+                    <div class="elements">
+                        <h2 class="tp-caption sft skewtotop title white" data-x="15" data-y="241" data-speed="1000" data-start="1100" data-easing="Power4.easeOut" data-endspeed="400" data-endeasing="Power1.easeIn">Different Variations</h2>
+                        <div class="tp-caption lfl skewtoleft description col-xs-5 hidden-xs" data-x="0" data-y="335" data-speed="1000" data-start="1000" data-easing="Power4.easeOut" data-endspeed="400" data-endeasing="Power1.easeIn" style="max-width: 520px;">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do usmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam dolore magna aliqua ut enim ad minim veniam.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit ad minim veniam sed do usmod tempor incididunt ut labore et dolore.</p>
+                        </div>
+                        <a href="#" class="btn btn-default tp-caption customin hidden-xs" data-x="15" data-y="492" data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed="1200" data-start="1000" data-easing="Power3.easeInOut" data-endspeed="300" style="z-index: 5">Read more</a>
+                        <div class="tp-caption lfb skewtobottom customin" data-x="730" data-hoffset="150" data-y="220" data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed="1000" data-start="1000" data-easing="Power4.easeOut" data-end="14000" data-endspeed="500" data-endeasing="Power1.easeIn" style="z-index: 3">
+                            <img src="img/sections/slider/rs-slider2-img.png" width="500" height="315" alt="" />
+                        </div>
+                        <div class="tp-caption customout" data-x="795" data-hoffset="-208" data-y="255" data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:1;transformPerspective:600;transformOrigin:50% 50%;" data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed="1" data-start="1000" data-easing="Power0.easeOut" data-end="3800" data-endspeed="1" data-endeasing="Power0.easeIn" data-captionhidden="on" style="z-index: 4">
+                            <img src="img/sections/slider/rs-slider2-one.png" width="372" height="232" alt="" />
+                        </div>
+                        <div class="tp-caption customin customout" data-x="795" data-hoffset="-208" data-y="255" data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:1;transformPerspective:600;transformOrigin:50% 50%;" data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed="1" data-start="3800" data-easing="Power0.easeOut" data-end="5300" data-endspeed="1" data-endeasing="Power0.easeIn" data-captionhidden="on" style="z-index: 4">
+                            <img src="img/sections/slider/rs-slider2-two.png" width="372" height="232" alt="" />
+                        </div>
+                        <div class="tp-caption customin customout" data-x="795" data-hoffset="-208" data-y="255" data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:1;transformPerspective:600;transformOrigin:50% 50%;" data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed="1" data-start="5300" data-easing="Power0.easeOut" data-end="6800" data-endspeed="1" data-endeasing="Power0.easeIn" data-captionhidden="on" style="z-index: 4">
+                            <img src="img/sections/slider/rs-slider2-three.png" width="372" height="232" alt="" />
+                        </div>
+                        <div class="tp-caption customin customout" data-x="795" data-hoffset="-208" data-y="255" data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:1;transformPerspective:600;transformOrigin:50% 50%;" data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed="1" data-start="6800" data-easing="Power0.easeOut" data-end="14000" data-endspeed="1" data-endeasing="Power0.easeIn" data-captionhidden="on" style="z-index: 4">
+                            <img src="img/sections/slider/rs-slider2-four.png" width="372" height="232" alt="" />
+                        </div>
+                    </div>
+                    <img src="~/img/mmc-bg.jpg" alt="" data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat" />
+                </li>-->
+
+                </ul>
+                <div class="tp-bannertimer"></div>
+            </div>
+        </section>
+
+ @RenderBody()
+   
+        <hr />
+                                        <footer>
+                                            <p>&copy; @DateTime.Now.Year - Midtown Mechanical Corporation</p>
+                                        </footer>
+ </div>
+
+                                    @Scripts.Render("~/bundles/jquery")
+                                    @Scripts.Render("~/bundles/bootstrap")
+                                    @RenderSection("scripts", required: false)
+
+    <script type="text/javascript" src="~/js/hover-dropdown-menu.js"></script>
+    <script type="text/javascript" src="~/js/jquery.hover-dropdown-menu-addon.js"></script>
+    <script type="text/javascript" src="~/js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="~/js/jquery.sticky.js"></script>
+    <script type="text/javascript" src="~/js/bootstrapValidator.min.js"></script>
+    <script type="text/javascript" src="~/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+    <script type="text/javascript" src="~/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+    <script type="text/javascript" src="~/js/revolution-custom.js"></script> 
+    <script type="text/javascript" src="~/js/jquery.appear.js"></script>
+    <script type="text/javascript" src="~/js/effect.js"></script>
+    <script type="text/javascript" src="~/js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="~/js/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript" src="~/js/jquery.parallax-1.1.3.js"></script> 
+    <script type="text/javascript" src="~/js/custom.js"></script> 
+
 </body>
 </html>
