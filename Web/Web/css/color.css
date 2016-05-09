@@ -43,7 +43,8 @@ header .nav .open > a.highlighted,
 .btn-transparent-black-inverse,
 .btn-transparent-white-inverse,
 .btn-transparent-color,
-.btn-transparent-color-inverse:hover
+.btn-transparent-color-inverse:hover,
+.red
 {
 	color: #cc0000;
 }
@@ -120,6 +121,12 @@ div.count-number:before,
 {
 	border-color: #cc0000;
 }
+.green{
+    color:rgba(58, 128, 23, 0.80);
+}
+.btn-success{
+    background-color:rgba(58, 128, 23, 0.80);
+}
 
 .bottom-arrow:before{
 	border-top-color: #cc0000;
@@ -128,22 +135,7 @@ div.count-number:before,
 .leftGrip{
 	border-bottom: 10px solid #cc0000 !important;
 }
-
-.blog.timeliner >li:hover  .timeline-panel:before{
-  border-left-color: #cc0000;  
-}
-.blog.timeliner  >li.timeline-inverted:hover .timeline-panel:before{
-  border-right-color: #cc0000;
-  border-left-color: #ffffff;
-}
-.right.blog.timeliner  >li.timeline-inverted:hover .timeline-panel:before,
-.right.blog.timeliner >li:hover  .timeline-panel:before{
-	border-right-color: #cc0000;
-	border-left-color: #ffffff;
-}
-.pricing:hover i.icons-circle.medium.pricing-icon{
-	text-shadow: 0px 0px 5px rgba(255, 196, 0, 0.5);
-}	
+	
 .top-up .nav-tabs > li.active > a:after, 
 .top-up  .nav-tabs > li.active > a:focus:after, 
 .top-up .nav-tabs > li.active > a:hover:after{
@@ -153,13 +145,7 @@ div.count-number:before,
 /******************************************************************************
   Max Width "767px"
 *******************************************************************************/
-@media (max-width: 767px) { 
-	.blog.timeliner  >li.timeline-inverted:hover .timeline-panel:before,
-	.blog.timeliner >li:hover  .timeline-panel:before{
-		border-right-color: #cc0000;
-		border-left-color: #ffffff;
-	}
-}
+
 /******************************************************************************
   Max Width "992px"
 *******************************************************************************/
