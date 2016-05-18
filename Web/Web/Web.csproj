@@ -185,6 +185,7 @@
     <Content Include="img\aprilairehumidifier_mod500.jpg" />
     <Content Include="img\aprilairehumidifier_mod700.jpg" />
     <Content Include="img\aprilaire_mod500m.jpg" />
+    <Content Include="img\april_2.jpg" />
     <Content Include="img\carrier.gif" />
     <Content Include="img\carrier.png" />
     <Content Include="img\carrierairconditioner.jpg" />
@@ -195,19 +196,25 @@
     <Content Include="img\chicago4.jpg" />
     <Content Include="img\chicagoShort.jpg" />
     <Content Include="img\favicon.ico" />
+    <Content Include="img\feature-3.jpg" />
+    <Content Include="img\feature-4.jpg" />
     <Content Include="img\FocusPRO6000.jpg" />
     <Content Include="img\heatcoolHouse.jpg" />
     <Content Include="img\heatHouse.jpg" />
+    <Content Include="img\hvac3.jpg" />
     <Content Include="img\mmc-bg.jpg" />
     <Content Include="img\MMC-logo-sm.jpg" />
     <Content Include="img\MMC-logo.jpg" />
     <Content Include="img\mmc-spring-2016.jpg" />
     <Content Include="img\mmc.jpg" />
     <Content Include="img\MMCheating.png" />
+    <Content Include="img\mmchome.jpg" />
     <Content Include="img\MMCmaster5.jpg" />
+    <Content Include="img\photo %283%29.JPG" />
     <Content Include="img\Pro4000.jpg" />
     <Content Include="img\rightarrow.png" />
     <Content Include="img\rooftop.jpg" />
+    <Content Include="img\rowhouses.jpg" />
     <Content Include="img\sections\bg\book.jpg" />
     <Content Include="img\sections\slider\arrow-left.png" />
     <Content Include="img\sections\slider\arrow-right.png" />
@@ -305,6 +312,7 @@
     <Content Include="img\snow2011.jpg" />
     <Content Include="img\spring-ac-maint.jpg" />
     <Content Include="img\spring-ac-maintenance.jpg" />
+    <Content Include="img\taylor.jpg" />
     <Content Include="img\thermostat.jpg" />
     <Content Include="img\thinkSpring.jpg" />
     <Content Include="img\tomwalker.jpg" />
@@ -472,17 +480,13 @@
   <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
     <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
   </Target>
- 
   <PropertyGroup>
-     <PostBuildEvent>
+    <PostBuildEvent>
           if not exist "$(WebProjectOutputDir)\bin\Roslyn" md "$(WebProjectOutputDir)\bin\Roslyn"
            start /MIN xcopy /s /y /R "$(OutDir)roslyn\*.*" "$(WebProjectOutputDir)\bin\Roslyn"
       
-    </PostBuildEvent> 
+    </PostBuildEvent>
   </PropertyGroup>
-  
-  
-  
   <ProjectExtensions>
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">

@@ -30,23 +30,24 @@
 </head>
 <body>
     <div id="page">
-        <div id="top-bar" class="top-bar-section top-bar-bg-color">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div class="top-contact link-hover-color">
-                            <a href="tel:7737228145" class="lr-pad-20">
-                                <i class="fa fa-phone"></i> 773-722-8145
-                            </a>
-                            <a href="mailto:mmc4533@gmail.com" class="lr-pad-20">
-                                <i class="fa fa-envelope"></i> mmc4533@gmail.com
-                            </a>
-                          </div>
+        <div id="home">
+            <div id="top-bar" class="top-bar-section top-bar-bg-color">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="top-contact link-hover-color">
+                                <a href="tel:7737228145" class="lr-pad-20">
+                                    <i class="fa fa-phone"></i> 773-722-8145
+                                </a>
+                                <a href="mailto:mmc4533@gmail.com" class="lr-pad-20">
+                                    <i class="fa fa-envelope"></i> mmc4533@gmail.com
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-   
         <header id="sticker" class="sticky-navigation">
             <div class="sticky-menu relative">
                 <div class="navbar navbar-default navbar-bg-light" role="navigation">
@@ -60,21 +61,21 @@
                                         <span class="icon-bar"></span>
                                         <span class="icon-bar"></span>
                                     </button>
-                                    <a class="navbar-brand img-responsive" href="#home">
+                                    <a class="navbar-brand img-responsive" href="~/#home">
                                         <img class="site_logo" alt="MMC Logo" width="120" height="42" src="~/img/MMC-logo.jpg" />
                                     </a>
                                 </div>
                                 <div class="navbar-collapse collapse">
                                     <ul class="nav navbar-nav page-links">
                                         <li>
-                                            <a href="~/Index#about">About</a>
+                                            <a href="~/#about-us">About</a>
                                         </li>
                                         <li>
                                             <a href="~/Index#heating">Heating</a>
                                         </li>
 
                                         <li>
-                                            <a data-toggle="collapse" href="~/Index#cooling">Cooling</a>
+                                            <a data-toggle="collapse" href="~/#cooling">Cooling</a>
                                             <ul class="dropdown-menu">
                                                 <li>
                                                     <a href="~/Index#cool-service">Air Conditioner Service</a>
@@ -92,11 +93,11 @@
                                             <a href="~/Index#comfort">Air Comfort</a>
                                         </li>
                                         <li>
-                                            <a href="~/Index#service">service</a>
+                                            <a href="~/Index#service">Service</a>
                                         </li>
 
                                         <li>
-                                            <a href="~/Index#contact">Contact</a>
+                                            <a href="~/#contact">Contact</a>
                                         </li>
 
                                     </ul>
@@ -189,9 +190,13 @@
  @RenderBody()
    
         <hr />
-                                        <footer>
-                                            <p>&copy; @DateTime.Now.Year - Midtown Mechanical Corporation</p>
-                                        </footer>
+        <footer>
+
+
+
+
+        <p>&copy; @DateTime.Now.Year - Midtown Mechanical Corporation</p>
+        </footer>
  </div>
 
                                     @Scripts.Render("~/bundles/jquery")

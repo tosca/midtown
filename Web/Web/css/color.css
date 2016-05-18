@@ -97,7 +97,9 @@ div.count-number:before,
 	background-color: #cc0000;
 }
 
-
+/*.tab-list h5{
+    color:#084999;
+}*/
 
 /* ============================
 
@@ -123,6 +125,9 @@ div.count-number:before,
 }
 .green{
     color:rgba(58, 128, 23, 0.80);
+}
+.red{
+    color: #CC0000;
 }
 .btn-success{
     background-color:rgba(58, 128, 23, 0.80);
