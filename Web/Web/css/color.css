@@ -96,7 +96,9 @@ div.count-number:before,
 {
 	background-color: #cc0000;
 }
-
+.bg-blue{
+    background-color: #1f3072;
+}
 /*.tab-list h5{
     color:#084999;
 }*/
@@ -129,9 +131,7 @@ div.count-number:before,
 .red{
     color: #CC0000;
 }
-.btn-success{
-    background-color:rgba(58, 128, 23, 0.80);
-}
+
 
 .bottom-arrow:before{
 	border-top-color: #cc0000;
@@ -179,13 +179,13 @@ div.count-number:before,
 /* Content Select In Browser */
 
 ::-moz-selection {
-    background: #cc0000;
+    background: #1f3072;
     color: #000000;
     text-shadow: none;
 }
 
 ::selection {
-    background: #cc0000;
+    background: #1f3072;
     color: #a4003a;
     text-shadow: none;
 }
