@@ -3,7 +3,7 @@
     "use strict";
     $(document).ready(function(){
 		$('.tp-banner').revolution({
-			delay:9000,
+			delay:7000,
 			startwidth:1170,
 			startheight:650,
 			hideThumbs:10,
@@ -13,7 +13,9 @@
 			navigationType : 'none'
 
 		});
-		
+		$('.tp-banner').css('visibility', 'visible').show().revolution({
+		});
+
 		$('.tp-banner-new').revolution({
 			delay:9000,
 			startwidth:1170,
