@@ -171,7 +171,7 @@ h6 {
 }
 p {
 font-family: 'Arimo', sans-serif;
-font-size: 18px;
+font-size: 17px;
 }
 .head-no-margin h6{
 	margin-bottom:14px;
@@ -192,6 +192,14 @@ font-size: 18px;
     padding: 0 0 0 7px;
     color: #147a84;
 }
+/*.right {
+    float: right;
+    margin: 10px;
+}
+.left {
+    float: left;
+    margin: 10px;
+}*/
 hr{
   border: 0;
   border-top: 1px solid #e1e1e1;

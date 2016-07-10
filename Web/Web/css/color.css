@@ -99,6 +99,10 @@ div.count-number:before,
 .bg-blue{
     background-color: #1f3072;
 }
+.s-feature-box,
+.s-feature-box:hover .mask-bottom{
+    background-color: #1f3072;
+}
 .blue{
 color: #1f3072;
 }
@@ -129,7 +133,7 @@ color: #1f3072;
 	border-color: #cc0000;
 }
 .green{
-    color:rgba(58, 128, 23, 0.80);
+    color:rgba(58, 128, 23, 0.9);
 }
 .red{
     color: #CC0000;
