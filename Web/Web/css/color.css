@@ -106,6 +106,10 @@ div.count-number:before,
 .blue{
 color: #1f3072;
 }
+.bold-red-text{
+    font-weight: 700;
+    color: #cc0000;
+}
 /*.tab-list h5{
     color:#084999;
 }*/
