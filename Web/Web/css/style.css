@@ -2655,7 +2655,9 @@ p.tp-caption.button-block a{
 }
 .portfolio-grid .grids:hover .figcaption{
 	position:absolute;
-	opacity:1;
+	opacity:0.8;
+    opacity:1;
+    
 }
 .portfolio-grid .grids:hover img{
 	opacity:.2;
@@ -2664,10 +2666,12 @@ p.tp-caption.button-block a{
 }
 .portfolio-grid .grid {
 	position:relative;
-	background-color:#000000;
+	background-color:rgba(0, 0, 0, 0.01);
+    background-color: red;
+    background-color: rgba(0,0,0,.075);
 }
 .img-overlay{
-	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.8);
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.01);
     bottom: 0;
     left: 0;
     opacity: 0;
