@@ -20,9 +20,9 @@ namespace Web.Controllers
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult Careers()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Job Careers";
 
             return View();
         }
