@@ -4732,4 +4732,13 @@ ul.tags li{
     background-color: #1c1c1c;
     border-color: #1d1d1d;
 }
-
+.btn-red {
+    color: #fff;
+    background-color: #cc0000;
+    border-color: #d43f3a;
+}
+.btn-red:hover {
+    color: #fff;
+    background-color: #af3e19;
+    border-color: #d43f3a;
+}

@@ -230,9 +230,9 @@ border-style:none;
 white-space:nowrap;
 }
 .tp-caption.boxshadow {
--moz-box-shadow:0px 0px 20px rgba(0, 0, 0, 0.5);
--webkit-box-shadow:0px 0px 20px rgba(0, 0, 0, 0.5);
-box-shadow:0px 0px 20px rgba(0, 0, 0, 0.5);
+-moz-box-shadow:0px 0px 20px rgba(0, 0, 0, 0.3);
+-webkit-box-shadow:0px 0px 20px rgba(0, 0, 0, 0.3);
+box-shadow:0px 0px 20px rgba(0, 0, 0, 0.3);
 }
 .tp-caption.black {
 color:#000;
