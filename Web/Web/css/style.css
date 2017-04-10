@@ -429,6 +429,10 @@ color:#ffffff;
 .btn-black:hover{
 	opacity:.8;
 }
+.btn-danger {
+     background-color:#cc0000;
+}
+
 .btn-blue{
     background-color:#084999;
 }
