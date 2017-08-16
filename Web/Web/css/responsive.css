@@ -340,8 +340,6 @@
 		border-radius:0!important;
 		-moz-border-radius:0!important;
 		-webkit-border-radius:0!important;
-		-o-border-radius:0!important;
-		-ms-border-radius:0!important;
 		border:none!important;
 		padding:0;
 	}
@@ -620,6 +618,9 @@
   Max Width "480px"
 *******************************************************************************/
 @media (max-width: 480px) { 
+    h6{
+        font-size: 12px;
+    }
 	.grid-col-2 .grid-item ,
 	.grid-col-2 .grid-sizer{
 		width:100%;
