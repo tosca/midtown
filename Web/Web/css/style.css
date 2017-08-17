@@ -70,28 +70,12 @@
 	- Tags	
 	- Social Feed Widget
 	- Shop Widgets
-	- Poll
 	- Price Range Filter
 	- Widget
 	- Newsletter
 	- Sticky Sidebar - NEW 
 5. PAGES
 	- Service Time-line	
-	- Time Liner Blog & Resume
-	- Timeline Left side Bar
-	- Coming Soon
-	- Event page
-		- Schedule Section
-		- Schedule panel-collapse
-		- Faq
-	- Book Landing page
-	- 404
-	- Charity
-	- Fashion page
-	- spa
-	- Wedding
-	- Real Estate
-	- Motor Page
 	- Mail chimp
 	- Shopping Cart
 		- Zoom Product
@@ -121,12 +105,12 @@
 body {
   font-family: 'Arimo', sans-serif;
   height: 100%;
-  line-height: 1.8;
+  line-height: 1.7;
   font-style:normal;
   -webkit-appearance: none;
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
-  font-size: 18px;
+  font-size: 16px;
   color: #333;
 }
 input,
