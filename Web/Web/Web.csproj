@@ -25,6 +25,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -165,14 +166,10 @@
     <Content Include="css\font-awesome.min.css" />
     <Content Include="css\hover-dropdown-menu.css" />
     <Content Include="css\icons.css" />
-    <Content Include="css\owl\owl.carousel.css" />
-    <Content Include="css\owl\owl.theme.css" />
-    <Content Include="css\owl\owl.transitions.css" />
     <Content Include="css\photostack.css" />
     <Content Include="css\prettyPhoto.css" />
     <Content Include="css\responsive.css" />
     <Content Include="css\revolution-slider.css" />
-    <Content Include="css\settings.css" />
     <Content Include="css\style.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\fontawesome-webfont.svg" />
@@ -203,6 +200,7 @@
     <Content Include="img\luxaireGasFurnace.jpg" />
     <Content Include="img\luxaireSplitSystem.jpg" />
     <Content Include="img\mmc-bg.jpg" />
+    <Content Include="img\mmc-fall-2017.jpg" />
     <Content Include="img\mmc-laborday-sale2017.jpg" />
     <Content Include="img\MMC-logo-sm.jpg" />
     <Content Include="img\MMC-logo.jpg" />
@@ -360,8 +358,6 @@
     <Content Include="js\bootstrap-datetimepicker.min.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\bootstrapValidator.min.js" />
-    <Content Include="js\charts.js" />
-    <Content Include="js\countdown.js" />
     <Content Include="js\custom-light-aug-04.js" />
     <Content Include="js\custom.js" />
     <Content Include="js\effect.js" />
@@ -372,11 +368,9 @@
     <Content Include="js\jquery.countTo.js" />
     <Content Include="js\jquery.easing.1.3.js" />
     <Content Include="js\jquery.easy-ticker.min.js" />
-    <Content Include="js\jquery.easypiechart.min.js" />
     <Content Include="js\jquery.elevateZoom-3.0.8.min.js" />
     <Content Include="js\jquery.gridrotator.js" />
     <Content Include="js\jquery.hover-dropdown-menu-addon.js" />
-    <Content Include="js\jquery.mb.YTPlayer.js" />
     <Content Include="js\jquery.migrate.js" />
     <Content Include="js\jquery.min.js" />
     <Content Include="js\jquery.mixitup.min.js" />
@@ -384,13 +378,10 @@
     <Content Include="js\jquery.prettyPhoto.js" />
     <Content Include="js\jquery.stickit.js" />
     <Content Include="js\jquery.sticky.js" />
-    <Content Include="js\jquery.superslides.js" />
     <Content Include="js\masonry.pkgd.min.js" />
     <Content Include="js\modernizr.js" />
     <Content Include="js\moment.js" />
-    <Content Include="js\owl.carousel.min.js" />
     <Content Include="js\photostack.js" />
-    <Content Include="js\price-filter.js" />
     <Content Include="js\retina.min.js" />
     <Content Include="js\revolution-custom.js" />
     <Content Include="js\revolution\jquery.zozothemes.plugins.min.js" />
@@ -401,7 +392,6 @@
     <Content Include="js\tweet\scripts.js" />
     <Content Include="js\tweet\tweetie.min.js" />
     <Content Include="js\typed.js" />
-    <Content Include="js\video.js" />
     <Content Include="rs-plugin\assets\arrowleft.png" />
     <Content Include="rs-plugin\assets\arrowright.png" />
     <Content Include="rs-plugin\assets\arrow_large_left.png" />
@@ -489,8 +479,6 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Careers.cshtml" />
   </ItemGroup>
