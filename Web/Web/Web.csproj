@@ -188,6 +188,7 @@
     <Content Include="img\chicago3.jpg" />
     <Content Include="img\chicago4.jpg" />
     <Content Include="img\ducane-ac.png" />
+    <Content Include="img\ducane-air.png" />
     <Content Include="img\ducane-heating.jpg" />
     <Content Include="img\favicon.ico" />
     <Content Include="img\feature-4.jpg" />
