@@ -1279,22 +1279,6 @@ i.fa-1x{
   filter: alpha(opacity=20);
   width: 100%;
 }
-.image-bg .overlay-strips,
-.overlay-strips{
-  background:url(../img/patterns/pattern.png) repeat;
-  height: 100%;
-  opacity: .8;
-  filter: alpha(opacity=20);
-  width: 100%;
-}
-.image-bg .overlay-boxed,
-.overlay-boxed {
-  background:url(../img/patterns/pattern2.png) repeat;
-  height: 100%;
-  opacity: .1;
-  filter: alpha(opacity=20);
-  width: 100%;
-}
 .image-bg .overlay-color,
 .overlay-color{
   height: 100%;
@@ -1303,42 +1287,6 @@ i.fa-1x{
   width: 100%;
 }
 
-/* Forms */
-.form-box{
-	background-color:#c1c1c1;
-	padding:30px;
-}
-.form-control{
-	margin-bottom:20px;
-}
-.form-control.bg-white{
-	background:#ffffff;
-	color:#333333;
-}
-.form-control.bg-black{
-	background:#222;
-	color:#fff;
-}
-textarea.form-control.height-82{
-	height:82px;
-}
-.field-border-bottom .form-control{
-	border-left: medium none;
-    border-radius: 0;
-    border-right: medium none;
-    border-top: medium none;
-    box-shadow: none;
-	background:transparent;
-	color:#ffffff;
-}
-.field-border .form-control{
-    box-shadow: none;
-	background:transparent;
-	color:#ffffff;
-}
-.form-message1{
-	color:#ff0000;
-}
 /* Text Color */
 .white{
 	color:#ffffff;
@@ -1455,7 +1403,6 @@ i,
 	-moz-transition:all 350ms ease-in-out 0s;
 	-webkit-transition:all 350ms ease-in-out 0s;
 	-o-transition:all 350ms ease-in-out 0s;
-	-ms-transition:all 350ms ease-in-out 0s;
 }
 /* Hover Zoom Effects */
 .zoom:hover i{
@@ -1507,7 +1454,6 @@ i,
 .rotating {
   -webkit-animation: rotating 2s linear infinite;
   -moz-animation: rotating 2s linear infinite;
-  -ms-animation: rotating 2s linear infinite;
   -o-animation: rotating 2s linear infinite;
   animation: rotating 2s linear infinite;
 }
@@ -1589,8 +1535,6 @@ i,
 	top:25px;
 	box-shadow:none;
 	-moz-box-shadow:none;
-	-ms-box-shadow:none;
-	-o-box-shadow:none;
 	-webkit-box-shadow:none;
 }
 #navigation-menu{
@@ -4727,3 +4671,19 @@ ul.tags li{
     background-color: #af3e19;
     border-color: #d43f3a;
 }
+
+.privacy {
+    color: #fff;
+    background-color: #cc0000;
+    border-color: #d43f3a;
+    font-size: 20px;
+    text-transform: capitalize;
+   padding:15px 32px;
+    cursor: pointer;
+}
+
+    .privacy:hover, .privacy:active {
+        color: #fff;
+        background-color: #af3e19;
+        border-color: #d43f3a;
+    }

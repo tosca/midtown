@@ -203,6 +203,7 @@
     <Content Include="img\luxaireGasFurnace.jpg" />
     <Content Include="img\luxaireSplitSystem.jpg" />
     <Content Include="img\mmc-bg.jpg" />
+    <Content Include="img\mmc-bldg-02.jpg" />
     <Content Include="img\mmc-fall-2018.jpg" />
     <Content Include="img\MMC-logo-sm.jpg" />
     <Content Include="img\MMC-logo.jpg" />
@@ -211,6 +212,7 @@
     <Content Include="img\mmc.jpg" />
     <Content Include="img\MMCheating.png" />
     <Content Include="img\mmchome.jpg" />
+    <Content Include="img\MMCmaster-winter-2018.jpg" />
     <Content Include="img\MMCmaster-winter.jpg" />
     <Content Include="img\mmctruck.jpg" />
     <Content Include="img\PayneAC.jpg" />
