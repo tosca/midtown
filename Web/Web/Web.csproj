@@ -393,7 +393,6 @@
     <Content Include="js\tweet\scripts.js" />
     <Content Include="js\tweet\tweetie.min.js" />
     <Content Include="js\typed.js" />
-    <Content Include="MMCmaster-winter-2018-01.jpg" />
     <Content Include="MMCmaster-winter.jpg" />
     <Content Include="rs-plugin\assets\arrowleft.png" />
     <Content Include="rs-plugin\assets\arrowright.png" />
