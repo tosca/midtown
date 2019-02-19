@@ -212,7 +212,6 @@
     <Content Include="img\MMCheating.png" />
     <Content Include="img\mmchome.jpg" />
     <Content Include="img\MMCmaster-winter-2018.jpg" />
-    <Content Include="img\MMCmaster-winter.jpg" />
     <Content Include="img\mmctruck.jpg" />
     <Content Include="img\PayneAC.jpg" />
     <Content Include="img\projects\project-30.jpg" />
@@ -354,7 +353,6 @@
     <Content Include="img\thinkSpring.jpg" />
     <Content Include="img\tomwalker.jpg" />
     <Content Include="img\total-team.png" />
-    <Content Include="img\visit.jpg" />
     <Content Include="img\water-chgo.jpg" />
     <Content Include="img\winter-windows.jpg" />
     <Content Include="img\yorkAC.jpg" />
