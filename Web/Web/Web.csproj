@@ -204,12 +204,11 @@
     <Content Include="img\luxaireSplitSystem.jpg" />
     <Content Include="img\mmc-bg.jpg" />
     <Content Include="img\mmc-bldg-02.jpg" />
-    <Content Include="img\mmc-fall-2018.jpg" />
     <Content Include="img\MMC-logo-sm.jpg" />
     <Content Include="img\MMC-logo.jpg" />
     <Content Include="img\mmc-maint-ac.jpg" />
-    <Content Include="img\mmc-sept-humid-sale.jpg" />
     <Content Include="img\mmc-spring-2019.jpg" />
+    <Content Include="img\mmc-yearend-sale.jpg" />
     <Content Include="img\mmc.jpg" />
     <Content Include="img\MMCheating.png" />
     <Content Include="img\mmchome.jpg" />
