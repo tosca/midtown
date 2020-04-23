@@ -209,10 +209,12 @@
     <Content Include="img\mmc-magmile2.jpg" />
     <Content Include="img\mmc-maint-ac.jpg" />
     <Content Include="img\mmc-spring-2019.jpg" />
+    <Content Include="img\mmc-spring-maint-2020.jpg" />
     <Content Include="img\mmc-yearend-sale.jpg" />
     <Content Include="img\mmc.jpg" />
     <Content Include="img\MMCheating.png" />
     <Content Include="img\mmchome.jpg" />
+    <Content Include="img\MMCmaster-spring-2020.jpg" />
     <Content Include="img\MMCmaster-winter-2018.jpg" />
     <Content Include="img\mmctruck.jpg" />
     <Content Include="img\projects\project-30.jpg" />
