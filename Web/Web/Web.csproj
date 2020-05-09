@@ -205,12 +205,11 @@
     <Content Include="img\MMC-logo-sm.jpg" />
     <Content Include="img\MMC-logo.jpg" />
     <Content Include="img\mmc-maint-ac.jpg" />
+    <Content Include="img\mmc-spring-ac-2020-03.jpg" />
     <Content Include="img\mmc-spring-maint-2020.jpg" />
     <Content Include="img\mmc-yearend-sale.jpg" />
     <Content Include="img\mmc.jpg" />
     <Content Include="img\MMCheating.png" />
-    <Content Include="img\mmchome.jpg" />
-    <Content Include="img\MMCmaster-spring-2020.jpg" />
     <Content Include="img\mmctruck.jpg" />
     <Content Include="img\projects\project-30.jpg" />
     <Content Include="img\projects\project-32.jpg" />
@@ -342,7 +341,6 @@
     <Content Include="img\sections\slider\travel-1.jpg" />
     <Content Include="img\sections\slider\travel-2.jpg" />
     <Content Include="img\sections\slider\travel-3.jpg" />
-    <Content Include="img\snow2011.jpg" />
     <Content Include="img\snowbank.jpg" />
     <Content Include="img\spring-ac-maint.jpg" />
     <Content Include="img\springPark.jpg" />
