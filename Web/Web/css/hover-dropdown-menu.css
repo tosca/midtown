@@ -473,7 +473,7 @@ li.search-dropdown a {
 	vertical-align: middle;
 }
 .navbar-brand > img{
-	width: 155px;
+	width: 100px;
 }
 /* Shop Header */
 .shop-header-block{
@@ -1028,7 +1028,6 @@ header .navbar-collapse{
 	}
 	.navbar-toggle{
 		float: right;
-		margin-top: 20px;
 		margin-right: 9px;
 		background: transparent;
 		border: 0;
