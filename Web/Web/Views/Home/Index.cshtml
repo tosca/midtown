@@ -2,15 +2,15 @@
     ViewBag.Title = "Midtown Mechanical Corporation";
 }
          
-<section class="slider">
-    <div class="tp-banner">
+<section class="slider" >
+    <div class="tp-banner" style="margin-top:0px; margin-bottom: 50px">
         <ul>
             <li data-delay="9000" data-transition="fade" data-slotamount="7" data-masterspeed="2000">
                 <div class="elements">
-                   <!-- <div class="tp-caption lft skewtotop title white" data-x="100" data-y="26" data-speed="1000" data-start="1700" data-easing="Power4.easeOut" data-endspeed="500" data-endeasing="Power1.easeIn">
-                        <img src="~/img/MMCheating.png" width="900" alt="MMC - Heating, Air Conditioning & Air Comfort Specialists" />
-                    </div>-->
-                    <div class="tp-caption lft skewtotop title" data-x="372" data-y="300" data-speed="1000" data-start="1800" data-easing="Power4.easeOut" data-endspeed="500" data-endeasing="Power1.easeIn">
+                  <div class="tp-caption lft skewtotop title white" data-x="130" data-y="26" data-speed="1000" data-start="1700" data-easing="Power4.easeOut" data-endspeed="500" data-endeasing="Power1.easeIn">
+                        <img src="~/img/MMC_hvacspecial.png" width="800" alt="MMC - Heating, Air Conditioning & Air Comfort Specialists" />
+                    </div>
+                    <div class="tp-caption lft skewtotop title" data-x="400" data-y="220" data-speed="1000" data-start="2000" data-easing="Power4.easeOut" data-endspeed="500" data-endeasing="Power1.easeIn">
                         <img src="~/img/total-team.png" width="780" height="60" alt="MMC HVAC- Your Total Indoor Comfort Team" />
                     </div>
                     <div class="tp-caption lfb" data-x="70" data-y="100" data-speed="1000" data-start="2440" data-easing="Power4.easeOut" data-endspeed="500" data-endeasing="Power1.easeIn" style="z-index: 4">
@@ -18,10 +18,10 @@
     -->
                     </div>
                     <div>
-                        <a href="~/#contact-form" class="tp-caption lfb btn-sm btn-danger" data-x="800" data-y="380" data-speed="1000" data-start="2840" data-easing="Power4.easeOut" data-endspeed="500" data-endeasing="Power1.easeIn"><h5 class="white text-center">Contact us to<br />Schedule Maintenance</h5></a>
+                        <a href="~/#contact-form" class="tp-caption lfb btn-sm btn-danger" data-x="870" data-y="460" data-speed="1000" data-start="2840" data-easing="Power4.easeOut" data-endspeed="500" data-endeasing="Power1.easeIn"><h5 class="white text-center">Contact us to<br />Schedule Maintenance</h5></a>
                     </div>
                 </div>
-                     <img src="~/img/MMCmaster-fall-2020.jpg" alt="Chicago waterfront" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat" /> 
+                     <img src="~/img/MMCmaster-spring-2021-04.jpg" alt="Midtown Mechanical Corporation - Chicago waterfront" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat" /> 
             </li>
         </ul>
         <div class="tp-bannertimer"></div>
@@ -30,9 +30,8 @@
 
 <section id="about-us" class="page-section">
     <div class="container">
-        <div class="section-title">
-            <img src="~/img/MMCheating.png" width="900" alt="MMC - Heating, Air Conditioning & Air Comfort Specialists" />
-            <h1 class="title"></h1>
+      <div class="section-title">
+             <h1 class="title">About Midtown Mechanical</h1>
         </div>
         <div class="row">
             <div class="col-md-4" data-animation="fadeInLeft">
@@ -71,83 +70,71 @@
 </section>
 <section id="products" class="page-section">
     <div class="container">
-        <div class="row special-feature">
+        <div class="row">
             <div class="section-title" data-animation="fadeInUp">
                 <h2 class="title blue">Products</h2>
             </div>
+             <!-- cooling -->
+            <div class="col-sm-3">
+                <div class="products-card text-center">
+                    <h4>COOLING</h4>
+                    <img src="~/img/carrierInfinity21.jpg" alt="Carrier Infinity 21 air conditiioner" />
+                    <div class="products-card-text">
+                        <h4>COOLING</h4>
+                        <p>
+                            Carrier Home Comfort Systems<br />
+                            Carrier Commercial HVAC Solutions<br />
+                            Guardian Cooling Systems<br />
+                            Ducane Cooling Equipment
+                        </p>
+                    </div>
+                </div>
+            </div>
             <!-- heating -->
-            <a href="~/#heating">
-                <div class="col-md-3">
-                    <div class="s-feature-box text-center">
-                        <div class="mask-top">
-                            <h4>HEATING</h4>
-                            <img src="~/img/guardian-heating.jpg" />
-                        </div>
-                        <div class="mask-bottom">
-                            <h4 class="white">HEATING</h4>
-                            <p class="white">
-                                Carrier Heaters<br />
-                                Guardian Heaters<br />
-                                Ducane Heaters
-                            </p>
-                        </div>
+            <div class="col-sm-3">
+                <div class="products-card text-center">
+                    <h4>HEATING</h4>
+                    <img src="~/img/guardian-heating.jpg" alt="Guardian Heaters" />
+                    <div class="products-card-text">
+                        <h4>HEATING</h4>
+                        <p>
+                            Carrier Heaters<br />
+                            Guardian Heaters<br />
+                            Ducane Heaters
+                        </p>
                     </div>
                 </div>
-            </a>
-            <!-- cooling -->
-            <a href="~/#cooling">
-                <div class="col-md-3">
-                    <div class="s-feature-box text-center">
-                        <div class="mask-top">
-                            <h4>COOLING</h4>
-                            <img src="~/img/carrierInfinity21.jpg" />
-                        </div>
-                        <div class="mask-bottom">                         
-                            <h4 class="white">COOLING</h4>
-                            <p class="white">
-                                Carrier Home Comfort Systems<br />
-                                Carrier Commercial HVAC Solutions<br /> 
-                                Guardian Cooling Systems<br />
-                                Ducane Cooling Equipment
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </a>
+            </div>
             <!-- air comfort-->
-            <div class="col-md-3">
-                <div class="s-feature-box text-center">
-                    <div class="mask-top">
+            <div class="col-sm-3">
+                <div class="products-card text-center">
+                    <h4>AIR COMFORT</h4>
+                    <img src="~/img/AprilaireWiThermo.jpg" />
+                    <div class="products-card-text">
                         <h4>AIR COMFORT</h4>
-                        <img src="~/img/AprilaireWiThermo.jpg" />
-                    </div>
-                    <div class="mask-bottom">
-                        <h4 class="white">AIR COMFORT</h4>
-                        <p class="white">
-                            Aprilaire Wifi Thermostats.<br />
-                            Aprilaire Humidifiers. <br />
-                            Aprilaire Thermostat Controllers.<br />
+                        <p>
+                            Aprilaire Wifi Thermostats<br />
+                            Aprilaire Humidifiers <br />
+                            Aprilaire Thermostat Controllers<br />
                             Aprilaire Whole Home Dehumidifiers
                         </p>
                     </div>
                 </div>
             </div>
             <!-- Services -->
-            <div class="col-md-3">
-                <div class="s-feature-box text-center">
-                    <div class="mask-top">
+            <div class="col-sm-3">
+                <div class="products-card text-center">
+                    <h4>SERVICE</h4>
+                    <img src="~/img/hvac3.jpg" />
+                    <div class="products-card-text">
                         <h4>SERVICE</h4>
-                        <img src="~/img/hvac3.jpg" />
-                    </div>
-                    <div class="mask-bottom">
-                        <h4 class="white">SERVICE</h4>
-                        <p class="white">
-                            Contract Free Preventative Maintenance.<br />
-                            Prompt Response to your call.<br />
-                            Committed to your Schedule.<br />
-                            Expert on all major equipment.<br />
-                            Rooptop commercial equipment.<br />
-                            Service Maintenance Reminders.
+                        <p>
+                            Contract Free Preventative Maintenance<br />
+                            Prompt Response to your call<br />
+                            Committed to your Schedule<br />
+                            Expert on all major equipment<br />
+                            Rooptop commercial equipment<br />
+                            Service Maintenance Reminders
                         </p>
                     </div>
                 </div>
@@ -156,42 +143,37 @@
     </div>
 </section>
 <section id="service" class="page-section">
+    <div class="section-title" data-animation="fadeInUp">
+        <h2 class="title blue">Expert Service Technicians</h2>
+    </div>
     <div class="container">
         <div class="row">
-            <div class="col-md-4 text-center bottom-xs-pad-30 top-margin-50" data-animation="pulse">
+            <div class="col-sm-4" >        
                 <img class="shadow" src="~/img/mmctruck.jpg" alt="Expert Technician Visit" width="314" height="207" />
+            </div>             
+            <div class="col-sm-4" data-animation="fadeInRight">
+                <h4 class="title blue">Timing is Everything</h4>
+                <p class="blue">
+                    Rely on us to respond promptly to your needs, no matter when an air conditioning problem occurs.
+                </p>
+                <p>
+                    Our expert AC technicians will arrive on time, and when it is convenient for you. We will quickly diagnose your AC problem and prepare an estimate for the needed repairs. After discussing the estimate with you, answering all your questions, and getting your approval, we'll make the AC repairs quickly and efficiently. Our customers' confidence in us is justified by our long experience in this field and our outstanding service record.
+                </p> 
+                <h4 class="title blue">Manufacturers Support</h4>
+                <p>Our years of loyalty with our manufacturers, benefits our clients when we need urgent and accurate support.</p>
             </div>
-            <div class="col-md-8" data-animation="fadeInRight">
-                <div class="section-title text-left" data-animation="fadeInUp">
-                    <h2 class="title blue">Expert Service Technicians</h2>
-                </div>
-                <div class="row responsive-features">
-                    <div class="col-sm-6" data-animation="fadeInRight">
-                        <h4 class="title blue">Timing is Everything</h4>
-                        <p class="blue">Rely on us to respond promptly to your needs, no matter when an air conditioning problem occurs.
-                          </p>
-                        <p>Our expert AC technicians will arrive on time, and when it is convenient for you. We will quickly diagnose your AC problem and prepare an estimate for the needed repairs. After discussing the estimate with you, answering all your questions, and getting your approval, we'll make the AC repairs quickly and efficiently. Our customers' confidence in us is justified by our long experience in this field and our outstanding service record.
-                         </p>
-                    </div>
-                    <div class="col-sm-6" data-animation="fadeInUp">
-                        <h4 class="title blue">Money Saving Efficiency</h4>
-                        <p>To anticipate the specialized needs of our diverse customer-base and to build an awareness towards "money saving" efficiency, we have expanded and integrated our core compentencies to include custom sheet metal and ductwork that is environmentally clean and up to the code of future years.
-                        </p>
-                    </div>                            
-                    <div class="col-sm-6" data-animation="fadeInUp">
-                        <h4 class="title blue">Service All Major Brands</h4>
-                        <p>Even if MMC did not install your air conditioning equipment, we ill be able to service your equipment. We know and repair all major brands, have most needed parts on hand, and always have the right test equipment and tools to diagnose and repair your system as quickly as possible.</p>
-                    </div>
-                    <div class="col-sm-6" data-animation="fadeInLeft">
-                        <h4 class="title blue">Manufacturers Support</h4>
-                        <p>Our years of loyalty with our manufacturers, benefits our clients when we need urgent and accurate support.</p>
-                    </div>
-                    <div class="clearfix"></div>
-                </div>                
+            <div class="col-sm-4" data-animation="fadeInUp">
+                <h4 class="title blue">Money Saving Efficiency</h4>
+                <p>
+                    To anticipate the specialized needs of our diverse customer-base and to build an awareness towards "money saving" efficiency, we have expanded and integrated our core compentencies to include custom sheet metal and ductwork that is environmentally clean and up to the code of future years.
+                </p>
+                <h4 class="title blue">Service All Major Brands</h4>
+                <p>Even if MMC did not install your air conditioning equipment, we ill be able to service your equipment. We know and repair all major brands, have most needed parts on hand, and always have the right test equipment and tools to diagnose and repair your system as quickly as possible.</p>
             </div>
+            <div class="clearfix"></div>
         </div>
-        </div>
-    </section>
+    </div>
+</section>
         <section id="projects" class="page-section">
           <div class="image-bg content-in fixed" data-background="../img/mmc-bldg-02.jpg">
                 <div class="overlay"></div>
@@ -349,134 +331,13 @@
                 </div>
             </div>    
         </section>
-<section id="heating" class="page-section light-bg">
-    <div class="container">
-        <h1 class="title red">HEATING</h1>
-        <div class="row">
-            <div class="col-md-12">
-                <div role="tabpanel" class="right-tabs">
-                    <ul class="nav nav-tabs" role="tablist">
-                        <li role="presentation" class="active">
-                            <a href="#furnace-tips" aria-controls="heat-tips" role="tab" data-toggle="tab">
-                                <h4 class="title">Furnace Tips</h4>
-                            </a>
-                        </li>
-                        <li role="presentation">
-                            <a href="#furnace-repair" aria-controls="heat-repair" role="tab" data-toggle="tab">
-                                <h4 class="title">Furnace Repair</h4>
-                            </a>
-                        </li>
-                        <li role="presentation">
-                            <a href="#furnace-maintenance" aria-controls="heat-maintenance" role="tab" data-toggle="tab">
-                                <h4 class="title">Maintenance</h4>
-                            </a>
-                        </li>
-                        <li role="presentation">
-                            <a href="#heating-sales" aria-controls="heat-sales" role="tab" data-toggle="tab">
-                                <h4 class="title">New Installation</h4>
-                            </a>
-                        </li>
-                    </ul>
-                    <hr />
-
-                    <div class="tab-content lr-pad-40">
-                        <!-- heating-sales -->
-                        <div role="tabpanel" class="tab-pane active" id="furnace-tips">
-                            <h4></h4>
-                            <h4 class="title red">Furnace Tips</h4>
-                            <h6>
-                                <strong>MMC - Your Professional Heating Contractor!</strong>
-                                <img src="~/img/taylor.jpg" class="right-box" alt="Chicago winter 2011" width="280" />
-                                At the end of the day, Chicagoans simply want a reliable and trustworthy company to be responsible for keeping them warm in the cold weather months of this windy city.  Since 1994, the customers, who have been referred to Midtown Mechanical,
-                                are staying warm in their homes and work places. They depend on MMC.  It is the honest HVAC assessment of president
-                                and owner,Tom Walker and his experienced team, that our customers have come to know
-                                and trust. Those returning customers have helped MMC grow into the HVAC company that you can see while driving the Eisenhower Expressway, today.
-                            </h6>
-                            <h5 class="title">Questions to ask MMC about furnaces</h5><img src="~/img/furnace-repair.jpg" alt="open furnace" class="right-box" />
-                            <ul>
-                                <li><img src="~/img/rightarrow.png" /> Which is the best furnace on the market? </li>
-
-                                <li><img src="~/img/rightarrow.png" /> Is my furnace operating at peak performance? </li>
-                                <li><img src="~/img/rightarrow.png" /> Is my furnace energy efficient? </li>
-                                <li><img src="~/img/rightarrow.png" /> Could I save money on my utility bills with a new furnace?</li>
-                                <li><img src="~/img/rightarrow.png" /> How closely can I manage my home comfort with your line of furnaces? </li>
-                                <li><img src="~/img/rightarrow.png" /> Which furnaces have easy-to-clean filters? </li>
-                                <li><img src="~/img/rightarrow.png" /> Which of the heating manufacturers you represent have been around the longest? </li>
-                                <li><img src="~/img/rightarrow.png" /> How quickly can you typically respond in an emergency situation? </li>
-                                <li><img src="~/img/rightarrow.png" /> Do you have any special furnace service or maintenance plans? </li>
-                                <li><img src="~/img/rightarrow.png" /> What are your billing and payment methods and terms? </li>
-                                <li><img src="~/img/rightarrow.png" /> Do you have client references I could contact? </li>
-                            </ul>
-                        </div>
-                        <!-- furnace-repair -->
-                        <div role="tabpanel" class="tab-pane" id="furnace-repair">
-                            <h4 class="title red">Furnace Repair</h4>
-                            <h6>
-                                <strong> Don't Wait Until You Need It&mdash;<br /> Repair your Furnace before Winter!</strong>
-                                <img src="~/img/winter-windows.jpg" class="right-box" alt="Chicago winter 2015" width="250" />
-                            </h6>
-                            <p>Actually, Summer is the perfect time for furnace repair and maintenance, and   other heating repair issues. One reason for this is the availability of   furnace technicians. Another is that preventative maintenance is always   less stressful than furnace repair when it’s freezing outside.</p>
-                            <p>MMC  offers incentives and other specials for   heating repair services during the summer, which means that we can fit you   in and you won't be left in the cold.</p>
-                            <h3>What You Should Know About Furnace Repair</h3>
-
-                            <p>To familiarize yourself with your furnace you may want to review how a furnace works, and exercise some of the preventative maintenance yourself. Here are some things you can tackle: </p>
-                            <img src="~/img/heatHouse.jpg" width="370" alt="heat map in house" class="right-box" />
-                            <ul>
-                                <li><img src="~/img/rightarrow.png" /> Confirm that the furnace cycles through start-up to shut-down via your thermostat.</li>
-                                <li><img src="~/img/rightarrow.png" /> Check the supply (small grates in each room) and return air (large   grate, usually in a hallway) temperature to make sure your thermostat   is accurate.</li>
-                                <li><img src="~/img/rightarrow.png" /> Clean and level your thermostat. For older thermostats this   ensures proper function since many of them have liquid mercury switches.   And always, this is aesthetically more eye pleasing.</li>
-                                <li><img src="~/img/rightarrow.png" /> There is a safety switch on all furnace doors that “pops out” when the door is removed. Make sure this is unobstructed and clean</li>
-                                <li><img src="~/img/rightarrow.png" /> Look at all the visible wiring and electrical connections for burns or unraveling/loose wire nuts or tape. </li>
-                                <li><img src="~/img/rightarrow.png" /> Check the condition of your vent connection pipe and chimney for rust or gaps. Venting system parts can deteriorate over time.</li>
-                            </ul>
-                        </div>
-                        <!-----heating maintenance-->
-                        <div role="tabpanel" class="tab-pane" id="furnace-maintenance">
-                            <h4 class="title red">Furnace Maintenance &Aacute; Service</h4>
-                            <p>Furnace considerations. Operating at Peak Performance. Energy Efficient. Save on heating expense.</p>
-                            <img src="~/img/snowbank.jpg" alt="CHicago Snow" width="300" class="right-box" />
-                            <p>
-                                Contact Midtown Mechanical to Request an Appointment to come to your residence or work location and run a thorough maintenance check on your A/C equipment. Call us at<span class="bold-red-text"> 773.722.8145</span> or request an appointment using our online.
-                            </p>
-                            <h5 class="title blue"><a href="~/#contact">Contact Form</a><img src="~/img/rightarrow.png" /></h5>
-                            <p>
-                                Midtown Mechanical will service all of your air conditioning needs whether installing a new system, maintaining
-                                your current system or repairing most major brands of your existing air conditioner. We can provide you with a quality
-                                and durable air conditioning unit that will give you the cooling relief that you need from the vicious Chicago heat.
-                            </p>
-                        </div>
-                        <!-- heating-sales -->
-                        <div role="tabpanel" class="tab-pane" id="heating-sales">
-                            <h4 class="title red">New Furnace Sales & Installation</h4>
-                            <h6>
-                                <strong> Midtown Mechanical repairs, sells and installs all major brands of furnaces </strong>into all neighborhoods of Chicago.  Our years of experience, have lead us to focus on a range of furnace products, that work best for smaller to larger indoor areas, from lower to higher price ranges.  We are equiped to service the total Chicago population of residential and commercial customers.
-                            </h6>
-                            <div class="left-nobox">
-                                <img src="~/img/carrier-heating.jpg" alt="Carrier Heating" />
-                                <h4>Carrier Heating Products</h4>
-                            </div>
-                            <div class="right-nobox">
-                                <img src="~/img/guardian-heating.jpg" alt="Guardian Heating" />
-                                <h4>Guardian Heating Products</h4>
-                            </div>
-                            <div class="right-nobox">
-                                <img src="~/img/ducane-heating.jpg" alt="Ducane heating" />
-                                <h4>Ducane Heating Products</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
         <section id="cooling" class="page-section">
             <div class="container">
                 <h1 class="title red">COOLING</h1>
                 <div class="row">
                     <div class="col-md-12">
                         <div role="tabpanel" class="right-tabs">
-                            <ul class="nav nav-tabs" role="tablist">                              
+                            <ul class="nav nav-tabs" role="tablist">
                                 <li role="presentation" class="active">
                                     <a href="#cooling-tips" aria-controls="cool-tips" role="tab" data-toggle="tab">
                                         <h5 class="title">A/C TIPS</h5>
@@ -499,13 +360,14 @@
                                 </li>
                             </ul>
                             <hr />
-                            <div class="tab-content lr-pad-40">                               
+                            <div class="tab-content lr-pad-40">
                                 <!-- cooling-tips -->
                                 <div role="tabpanel" class="tab-pane active" id="cooling-tips">
                                     <h4 class="title green">A/C Cooling Tips</h4>
-                                    <h6><strong> Most residents have their air conditioners running on a continual basis</strong> whether they are at home
+                                    <h6>
+                                        <strong> Most residents have their air conditioners running on a continual basis</strong> whether they are at home
                                         or in the office, in order to enjoy a comfortable living and working environment.<br /><br />
-                                       Is your air conditioner the most efficient and effective product for your living space?
+                                        Is your air conditioner the most efficient and effective product for your living space?
                                     </h6>
                                     <h4 class="title green">Spring Maintenance Tips for your Air Conditioner</h4>
                                     <img src="~/img/projects/project-26.jpg" alt="Carrier air conditioner" class="left-box boxshadow" />
@@ -525,7 +387,7 @@
                                     <h6>
                                         <strong>It's Chicago weather!</strong>
                                         Where it can be cool one day and then hot and humid the next day.
-                                        <img src="~/img/zooTrees.jpg" alt="trees" class="right-box"/><br /> Controlling the &quot;TOTAL INDOOR AIR COMFORT&quot; of Chicago's extreme weather changes for it's residents and business owners, is the Midtown Mechanical Corporation mission. 
+                                        <img src="~/img/zooTrees.jpg" alt="trees" class="right-box" /><br /> Controlling the &quot;TOTAL INDOOR AIR COMFORT&quot; of Chicago's extreme weather changes for it's residents and business owners, is the Midtown Mechanical Corporation mission.
                                     </h6>  <hr />
                                     <h4 class="title red">DID YOU KNOW? Some things&mdash; you can DO YOURSELF!</h4>
                                     <p>
@@ -533,7 +395,7 @@
                                         If you smell gas, send everyone out of your home and call your gas provider’s emergency telephone number immediately. If your air conditioner won’t cool, makes odd noises or freezes up, turn your thermostat to “off” and call MMC without delay. Running your A/C system when it isn’t working properly can turn a small repair into a much larger one.
                                     </p>
                                     <h4 class="title red">Change your air filters</h4>
-                                    <img src="~/img/projects/project-12.jpg" alt="air conditioners" class="left-box"/>
+                                    <img src="~/img/projects/project-12.jpg" alt="air conditioners" class="left-box" />
                                     <p>For your health, comfort and financial well-being, change or clean your air conditioning filters regularly per the manufacturers specifications. Depending on your equipment, the type of air filters you use, and the quality of the air being filtered, air filters need to be changed (or cleaned) somewhere between twice a month to once per year. On the disposable air filters, changing them once per month when you pay your utility bill is a good way to remember. Never run your heating and air conditioning system without the correct air filter in place.</p>
 
                                     <h3 class="title red">Check your air ducts</h3>
@@ -543,12 +405,16 @@
                                 <div role="tabpanel" class="tab-pane" id="cooling-maintenance">
                                     <h4 class="title green">A/C Service & MAINTENANCE</h4>
                                     <h4 class="title green"></h4>
-                                    <h6><strong>Start in Spring! Enjoy your Summer. Indoor and out!</strong><img src="~/img/mmc-maint-ac.jpg" alt="spring and Summer airconditioner tuneup" width="300" class="right-box" /><br />
-                                        Contact Midtown Mechanical to <a href="#contact"><span class="red">Request an Appointment</span></a>. Our expert technicians will come to your residence or work location and run a thorough maintenance check on your A/C equipment.</h6>
-                                    <h6> Call us at<span class="bold-red-text"> 773.722.8145 </span> or request an appointment using our online
+                                    <h6>
+                                        <strong>Start in Spring! Enjoy your Summer. Indoor and out!</strong><img src="~/img/mmc-maint-ac.jpg" alt="spring and Summer airconditioner tuneup" width="300" class="right-box" /><br />
+                                        Contact Midtown Mechanical to <a href="#contact"><span class="red">Request an Appointment</span></a>. Our expert technicians will come to your residence or work location and run a thorough maintenance check on your A/C equipment.
                                     </h6>
-                                    <h5 class="title blue"><a href="~/#contact" >Contact Form</a><img src="~/img/rightarrow.png" /></h5>
-                                    <h6> Midtown Mechanical will service all of your air conditioning needs whether installing a new system, maintaining
+                                    <h6>
+                                        Call us at<span class="bold-red-text"> 773.722.8145 </span> or request an appointment using our online
+                                    </h6>
+                                    <h5 class="title blue"><a href="~/#contact">Contact Form</a><img src="~/img/rightarrow.png" /></h5>
+                                    <h6>
+                                        Midtown Mechanical will service all of your air conditioning needs whether installing a new system, maintaining
                                         your current system or repairing most major brands of your existing air conditioner. We can provide you with a quality
                                         and durable air conditioning unit that will give you the cooling relief that you need from the vicious Chicago heat.
                                     </h6>
@@ -556,8 +422,9 @@
                                 <!-- cooling-sales -->
                                 <div role="tabpanel" class="tab-pane" id="cooling-sales">
                                     <h4 class="green">New Air Conditioner Sales & Installation</h4>
-                                     <h6><strong> Midtown Mechanical repairs, sells and installs all major brands of Air Conditioners</strong> into all neighborhoods of Chicago.  Our years of experience, have lead us to focus on a range of cooling products, that work best for smaller to larger indoor areas, from lower to higher price ranges.</h6>
-                                    <h6>  We are equiped to service the total Chicago population of residential and commercial customers.
+                                    <h6><strong> Midtown Mechanical repairs, sells and installs all major brands of Air Conditioners</strong> into all neighborhoods of Chicago.  Our years of experience, have lead us to focus on a range of cooling products, that work best for smaller to larger indoor areas, from lower to higher price ranges.</h6>
+                                    <h6>
+                                        We are equiped to service the total Chicago population of residential and commercial customers.
                                     </h6>
                                     <div class="left-nobox">
                                         <img src="~/img/grd-ACHP.jpg" alt="Guardian Split System" class="text-center right-nobox" />
@@ -567,13 +434,13 @@
                                         <img src="~/img/carrier.gif" alt="Carrier Logo" />
                                         <img src="~/img/carrierInfinity21.jpg" alt="Carrier Air Conditioners" />
                                         <h4>Carrier Air Conditioners</h4>
-                                    </div> 
+                                    </div>
                                     <div class="left-nobox">
                                         <img src="~/img/ducane-ac.png" alt="Ducane Air Conditioners" />
                                         <h4>Ducane Air Conditioners</h4>
                                     </div>
                                     <div class="right-nobox">
-                                        <img src="~/img/AprilaireWiThermo.jpg" alt="Aprilaire WiFi Thermostats"/>
+                                        <img src="~/img/AprilaireWiThermo.jpg" alt="Aprilaire WiFi Thermostats" />
                                         <h4>Aprilaire WiFi Thermostats</h4>
                                     </div>
                                 </div>
@@ -583,6 +450,127 @@
                 </div>
             </div>
         </section>
+         <section id="heating" class="page-section light-bg">
+        <div class="container">
+            <h1 class="title red">HEATING</h1>
+            <div class="row">
+                <div class="col-md-12">
+                    <div role="tabpanel" class="right-tabs">
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="active">
+                                <a href="#furnace-tips" aria-controls="heat-tips" role="tab" data-toggle="tab">
+                                    <h4 class="title">Furnace Tips</h4>
+                                </a>
+                            </li>
+                            <li role="presentation">
+                                <a href="#furnace-repair" aria-controls="heat-repair" role="tab" data-toggle="tab">
+                                    <h4 class="title">Furnace Repair</h4>
+                                </a>
+                            </li>
+                            <li role="presentation">
+                                <a href="#furnace-maintenance" aria-controls="heat-maintenance" role="tab" data-toggle="tab">
+                                    <h4 class="title">Maintenance</h4>
+                                </a>
+                            </li>
+                            <li role="presentation">
+                                <a href="#heating-sales" aria-controls="heat-sales" role="tab" data-toggle="tab">
+                                    <h4 class="title">New Installation</h4>
+                                </a>
+                            </li>
+                        </ul>
+                        <hr />
+
+                        <div class="tab-content lr-pad-40">
+                            <!-- heating-sales -->
+                            <div role="tabpanel" class="tab-pane active" id="furnace-tips">
+                                <h4></h4>
+                                <h4 class="title red">Furnace Tips</h4>
+                                <h6>
+                                    <strong>MMC - Your Professional Heating Contractor!</strong>
+                                    <img src="~/img/taylor.jpg" class="right-box" alt="Chicago winter 2011" width="280" />
+                                    At the end of the day, Chicagoans simply want a reliable and trustworthy company to be responsible for keeping them warm in the cold weather months of this windy city.  Since 1994, the customers, who have been referred to Midtown Mechanical,
+                                    are staying warm in their homes and work places. They depend on MMC.  It is the honest HVAC assessment of president
+                                    and owner,Tom Walker and his experienced team, that our customers have come to know
+                                    and trust. Those returning customers have helped MMC grow into the HVAC company that you can see while driving the Eisenhower Expressway, today.
+                                </h6>
+                                <h4 class="title" style="color:red;">Questions to ask MMC about furnaces</h4><img src="~/img/furnace-repair.jpg" alt="open furnace" class="right-box" />
+                                <ul>
+                                    <li><img src="~/img/rightarrow.png" /> Which is the best furnace on the market? </li>
+
+                                    <li><img src="~/img/rightarrow.png" /> Is my furnace operating at peak performance? </li>
+                                    <li><img src="~/img/rightarrow.png" /> Is my furnace energy efficient? </li>
+                                    <li><img src="~/img/rightarrow.png" /> Could I save money on my utility bills with a new furnace?</li>
+                                    <li><img src="~/img/rightarrow.png" /> How closely can I manage my home comfort with your line of furnaces? </li>
+                                    <li><img src="~/img/rightarrow.png" /> Which furnaces have easy-to-clean filters? </li>
+                                    <li><img src="~/img/rightarrow.png" /> Which of the heating manufacturers you represent have been around the longest? </li>
+                                    <li><img src="~/img/rightarrow.png" /> How quickly can you typically respond in an emergency situation? </li>
+                                    <li><img src="~/img/rightarrow.png" /> Do you have any special furnace service or maintenance plans? </li>
+                                    <li><img src="~/img/rightarrow.png" /> What are your billing and payment methods and terms? </li>
+                                    <li><img src="~/img/rightarrow.png" /> Do you have client references I could contact? </li>
+                                </ul>
+                            </div>
+                            <!-- furnace-repair -->
+                            <div role="tabpanel" class="tab-pane" id="furnace-repair">
+                                <h4 class="title red">Furnace Repair</h4>
+                                <h6>
+                                    <strong> Don't Wait Until You Need It&mdash;<br /> Repair your Furnace before Winter!</strong>
+                                    <img src="~/img/winter-windows.jpg" class="right-box" alt="Chicago winter 2015" width="250" />
+                                </h6>
+                                <p>Actually, Summer is the perfect time for furnace repair and maintenance, and   other heating repair issues. One reason for this is the availability of   furnace technicians. Another is that preventative maintenance is always   less stressful than furnace repair when it’s freezing outside.</p>
+                                <p>MMC  offers incentives and other specials for   heating repair services during the summer, which means that we can fit you   in and you won't be left in the cold.</p>
+                                <h3>What You Should Know About Furnace Repair</h3>
+
+                                <p>To familiarize yourself with your furnace you may want to review how a furnace works, and exercise some of the preventative maintenance yourself. Here are some things you can tackle: </p>
+                                <img src="~/img/heatHouse.jpg" width="370" alt="heat map in house" class="right-box" />
+                                <ul>
+                                    <li><img src="~/img/rightarrow.png" /> Confirm that the furnace cycles through start-up to shut-down via your thermostat.</li>
+                                    <li><img src="~/img/rightarrow.png" /> Check the supply (small grates in each room) and return air (large   grate, usually in a hallway) temperature to make sure your thermostat   is accurate.</li>
+                                    <li><img src="~/img/rightarrow.png" /> Clean and level your thermostat. For older thermostats this   ensures proper function since many of them have liquid mercury switches.   And always, this is aesthetically more eye pleasing.</li>
+                                    <li><img src="~/img/rightarrow.png" /> There is a safety switch on all furnace doors that “pops out” when the door is removed. Make sure this is unobstructed and clean</li>
+                                    <li><img src="~/img/rightarrow.png" /> Look at all the visible wiring and electrical connections for burns or unraveling/loose wire nuts or tape. </li>
+                                    <li><img src="~/img/rightarrow.png" /> Check the condition of your vent connection pipe and chimney for rust or gaps. Venting system parts can deteriorate over time.</li>
+                                </ul>
+                            </div>
+                            <!-----heating maintenance-->
+                            <div role="tabpanel" class="tab-pane" id="furnace-maintenance">
+                                <h4 class="title red">Furnace Maintenance and Service</h4>
+                                <p>Furnace considerations. Operating at Peak Performance. Energy Efficient. Save on heating expense.</p>
+                                <img src="~/img/snowbank.jpg" alt="CHicago Snow" width="300" class="right-box" />
+                                <p>
+                                    Contact Midtown Mechanical to Request an Appointment to come to your residence or work location and run a thorough maintenance check on your A/C equipment. Call us at<span class="bold-red-text"> 773.722.8145</span> or request an appointment using our online.
+                                </p>
+                                <h4 class="title blue"><a href="~/#contact">Contact Form</a><img src="~/img/rightarrow.png" /></h4>
+                                <p>
+                                    Midtown Mechanical will service all of your air conditioning needs whether installing a new system, maintaining
+                                    your current system or repairing most major brands of your existing air conditioner. We can provide you with a quality
+                                    and durable air conditioning unit that will give you the cooling relief that you need from the vicious Chicago heat.
+                                </p>
+                            </div>
+                            <!-- heating-sales -->
+                            <div role="tabpanel" class="tab-pane" id="heating-sales">
+                                <h4 class="title red">New Furnace Sales & Installation</h4>
+                                <h5>
+                                    Midtown Mechanical repairs, sells and installs all major brands of furnaces into all neighborhoods of Chicago.  Our years of experience, have lead us to focus on a range of furnace products, that work best for smaller to larger indoor areas, from lower to higher price ranges.  We are equiped to service the total Chicago population of residential and commercial customers.
+                                </h5>
+                                <div class="left-nobox">
+                                    <img src="~/img/carrier-heating.jpg" alt="Carrier Heating" />
+                                    <h4>Carrier Heating Products</h4>
+                                </div>
+                                <div class="right-nobox">
+                                    <img src="~/img/guardian-heating.jpg" alt="Guardian Heating" />
+                                    <h4>Guardian Heating Products</h4>
+                                </div>
+                                <div class="right-nobox">
+                                    <img src="~/img/ducane-heating.jpg" alt="Ducane heating" />
+                                    <h4>Ducane Heating Products</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
         
         <section id="contact" class="page-section bg-blue white">
             <div class="container">
@@ -592,49 +580,48 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xs-12 col-sm-6 pad-20 bottom-xs-pad-20">                      
+                    <div class="col-sm-6 pad-20 bottom-xs-pad-20">
                         <div class="row">
-                            <div class="col-xs-12 col-sm-6">
-                                  <div class="text-center right-nobox xs-pad-20">
-                                        <img src="~/img/mmc-bldg-02.jpg" alt="MMC office facing Congress Expressway" width="230" />
-                                        <p class="caption small text-center gray-bg">MMC Office</p>
-                                    </div>  
-                                <h5>Tom Walker, owner<br /></h5> 
-                                <h6> Midtown Mechanical Corp.<br />
-                                    4533 West Lexington <br />
-                                    Chicago, Illinois 60624 <br /><br />
-                                    <a href="tel:7737228145">
-                                        <i class="fa fa-phone"></i> 773-722-8145
-                                    </a><br />
-                                    <i class="fa fa-fax"></i> 7737228146<br />
-                                    <a class="lower" href="mailto:mmc4533@gmail.com">
-                                        <i class="fa fa-envelope"></i> mmc4533@gmail.com
-                                    </a>
-                                </h6>
-                            </div> 
-                            <iframe></iframe>
-                        </div>
-                        <div class="border2-white">
-                            <a href="~/Careers" target="_blank" class="bottom-xs-pad-30 top-pad-50 border-tb">
-                                <div class="bg-dark text-center" data-animation="pulse">
-                                    <h3 class="red">MMC Job Employment</h3>
-                                    <h5>New Construction Sheet Metal<br /></h5>
-                                    <h6>&mdash; Click to Apply &mdash;</h6>
-                                    <img src="~/img/greentruck.jpg" alt="MMC truck and large construction HVAC installation" />
+                            <div class="col-md-6">
+                                <div class="text-center pad-20">
+                                    <img src="~/img/mmc-bldg-02.jpg" alt="MMC office facing Congress Expressway" width="230" />
+                                    <p class="caption small text-center" style="padding-top:10px;">MMC Office</p>
                                 </div>
-                            </a>
+                            </div>
+                            <div class="col-md-6">
+                                <h6>Tom Walker, owner<br />
+                                    Midtown Mechanical Corp.<br />
+                                    4533 West Lexington <br />
+                                    Chicago, Illinois 60624 <br />
+                                    <a href="tel:7737228145">773-722-8145</a><br />
+                                    7737228146 FAX<br />
+                                    <a class="lower" href="mailto:mmc4533@gmail.com">mmc4533@gmail.com</a>
+                                </h6>
+                            </div>
                         </div>
+                        <a href="~/Careers" target="_blank" class="bottom-xs-pad-30 top-pad-50 border-tb">
+                            <div class="bg-dark text-center" data-animation="pulse">
+                                <h3 class="red">MMC Job Employment</h3>
+                                <h5>New Construction Sheet Metal<br /></h5>
+                                <h6>&mdash; Click to Apply &mdash;</h6>
+                                <img src="~/img/greentruck.jpg" alt="MMC truck and large construction HVAC installation" />
+                            </div>
+                        </a>
                     </div>
-                    <div class="col-xs-12 col-sm-6 bottom-xs-pad-20" id="contact-form">
-                        <h6> Our goal is to develop and sustain long-term customer relationships with our experienced and knowledgeable employees, using safe work practices and the most up-to-date technologies.                 
-                        </h6>
-                        <h6>We invite you to contact MMC for service, maintenance and new installations of HVAC equipment.
-                        </h6>
-                        <h6>
-                            Receive a Spring and Fall HVAC Maintenance email reminder, upon submitting form.
-                        </h6>
-                        <div class="img-responsive">
-                            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf61wv6m2sLm8dQULgxNS4f60a6QCf6AEUwj2I1dej-TqVDyQ/viewform?embedded=true" width="100%" height="700" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+                    <div class="col-sm-6 pad-20 bottom-xs-pad-20">
+                        <div id="contact-form">
+                            <h6>
+                                Our goal is to develop and sustain long-term customer relationships with our experienced and knowledgeable employees, using safe work practices and the most up-to-date technologies.
+                            </h6>
+                            <h6>
+                                We invite you to contact MMC for service, maintenance and new installations of HVAC equipment.
+                            </h6>
+                            <h6>
+                                Receive a Spring and Fall HVAC Maintenance email reminder, upon submitting form.
+                            </h6>
+                            <div class="img-responsive">
+                                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf61wv6m2sLm8dQULgxNS4f60a6QCf6AEUwj2I1dej-TqVDyQ/viewform?embedded=true" width="100%" height="1050" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+                            </div>
                         </div>
                     </div>
                 </div>
