@@ -1718,10 +1718,9 @@ p.tp-caption.button-block a{
 /* display grid */
 
 .products-card{ 
-	border: 2px solid #1f3072;
 	background-color: lightslategrey;
 	background-color: #a6a5b5;
-	margin: 20px;
+	box-shadow: 3px 3px 2px #2f4f4fbf;
 }
 .products-card-text {
 	padding: 7px 0;
@@ -1730,15 +1729,9 @@ p.tp-caption.button-block a{
 	color: white;
 }
 
-/******************************************************************************
-  Features 
-*******************************************************************************/
-
-
-/******************************************************************************
+/**********************************************
   Portfolio / Work
-*******************************************************************************/
-
+*************************************************/
 .work-section .nav li,
 .mixed-grid .nav li{
 	padding:7px 15px;
@@ -1818,7 +1811,7 @@ p.tp-caption.button-block a{
     
 }
 .portfolio-grid .grids:hover img{
-	opacity:.2;
+	opacity:.5;
   -webkit-transition: all .2s ease-out;
   transition: all .2s ease-out;	
 }
@@ -1861,9 +1854,9 @@ p.tp-caption.button-block a{
 	font-style:italic;
 	font-size:12px;
 }
-/******************************************************************************
+/****************************************
   Work Process
-*******************************************************************************/
+*******************************************/
 .work-process-box{
 	border-radius:100%;
 	-moz-border-radius:100%;

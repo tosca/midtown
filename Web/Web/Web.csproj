@@ -168,6 +168,7 @@
     <Content Include="css\style.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="img\3windows-2.jpg" />
     <Content Include="img\4533Lex2.jpg" />
     <Content Include="img\aprilaire.png" />
     <Content Include="img\AprilaireWiThermo.jpg" />
@@ -194,7 +195,7 @@
     <Content Include="img\MMC-logo.jpg" />
     <Content Include="img\mmc.jpg" />
     <Content Include="img\MMCheating.png" />
-    <Content Include="img\MMCmaster-fall-2020.jpg" />
+    <Content Include="img\MMCmaster-fall-2021.jpg" />
     <Content Include="img\MMCmaster-spring-2021-03.jpg" />
     <Content Include="img\MMCmaster-spring-2021-04.jpg" />
     <Content Include="img\MMCmaster-spring-2021.jpg" />
