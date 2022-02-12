@@ -186,13 +186,16 @@
     <Content Include="img\furnace.jpg" />
     <Content Include="img\grd-ACHP.jpg" />
     <Content Include="img\greentruck.jpg" />
+    <Content Include="img\GTbuilders.jpg" />
     <Content Include="img\guardian-heating.jpg" />
     <Content Include="img\heatcoolHouse.jpg" />
     <Content Include="img\heatHouse.jpg" />
     <Content Include="img\hvac3.jpg" />
+    <Content Include="img\mmc-bg.jpg" />
     <Content Include="img\mmc-bldg-02.jpg" />
     <Content Include="img\MMC-logo-sm.jpg" />
     <Content Include="img\MMC-logo.jpg" />
+    <Content Include="img\mmc-maint-ac.jpg" />
     <Content Include="img\mmc.jpg" />
     <Content Include="img\MMCheating.png" />
     <Content Include="img\MMCmaster-fall-2021.jpg" />
