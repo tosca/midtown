@@ -70,8 +70,8 @@ p {
     font-size: 15px;
     line-height: 1.5;
 }
-ul.circle {
-	list-style-type: circle;
+ul.square {
+	list-style-type: square;
 }
 
 .cursor-pointer{
@@ -130,14 +130,12 @@ a:hover{
     clear: both;
     margin: 10px 16px;
     padding: 0;
-    border: 2px solid #ddd;
 }
 .right-box {
 	float: right;
 	clear: both;
 	margin: 10px 16px;
     padding: 0;
-    border: 2px solid #ddd;
 }
 
 .no-gutters {
@@ -248,7 +246,7 @@ a:hover{
 }
 .page-section{
 	position: relative;
-	padding: 60px 10px 10px 10px;
+	padding: 60px 15px 10px 15px;
 	overflow-x:hidden;
 	transition: all 25s ease-in-out;
 	-webkit-transition: all 25s ease-in-out;
