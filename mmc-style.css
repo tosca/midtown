@@ -67,13 +67,15 @@ img {
 }
 p {
     font-family: 'Arimo', sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 1.5;
 }
 ul.square {
 	list-style-type: square;
 }
-
+.list-box {
+	padding: 10px 0;
+}
 .cursor-pointer{
 	cursor: crosshair;
 }
@@ -91,6 +93,10 @@ ul.square {
 .pad-20 {
 	padding: 20px;	
 }
+.reduce-img-size {
+	max-width: 14rem;
+}
+
 .m-lr40 {
 	margin-right:40px;
 	margin-left: 40px;
@@ -225,12 +231,12 @@ a:hover{
 	display: table;
 	clear: both;
 }
-/*.section-title {
+.section-title {
   border-bottom-width: 0px;
   text-align: center;
   margin-bottom: 17px;
   position: relative;
-}*/
+}
 .section-title h1{
 	text-transform:uppercase;
 	text-align:center;
@@ -378,43 +384,27 @@ img-responsive {
     margin: 0 -1px 0 0;
 	display: block;
 }
-/*.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
     color: #fff;
     cursor: default;
     background-color: #cc0000;
     border: 1px solid #ddd;
     border-bottom-color: transparent;
-}*/
+}
 .nav-items {
 	border: 1px solid #ced3d5;
 	padding: .5rem;	
 }
 .nav-tabs .nav-link.active {
-    color: #fff;
-    background-color: #cc0000;	
+	color: #fff;
+	background-color: #cc0000;
 }
-
-
-/*.section-title h1 {
-    text-transform: uppercase;
-    text-align: center;
-	font-family: 'Oswald', 'Open Sans', sans-serif;
-	 color: #cc0000;
-    font-size: 34px;
-    margin: 0 0 12px;
-    padding: 14px 0;
-	padding: 0 1rem;
-}*/
  .features-sub {
 	font-family:'Open Sans', sans-serif;
 	color: #1d20a1;
 	text-align: center;
 	padding: 0 1rem;
  }
- /*.section-text {
-	 font-family: 'Neucha', 'Open Sans', san-serif;
-	 padding: 2rem 2rem;
- }*/
  .link-title { 
 	 font-size: 1.5rem;
 	 line-height: 1.4;
@@ -449,9 +439,6 @@ img-responsive {
 .right {
     float: right;
 } 
-/*html.opacity:hover img {
-	opacity: 1;
-}*/
 .btn-success a:active { 
 	color: white;
 }
@@ -470,7 +457,12 @@ img-responsive {
     text-align: center;
     color: white;
 }
-
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 7px solid rgb(38 59 129);
+}
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) { 
 	.container {
@@ -500,15 +492,4 @@ img-responsive {
 		max-width: 1170px; 
 	}	
 }	
-/*
-	#wrapper{
-		padding-left: 4rem;
-		padding-right: 4rem;
-	}
-	.content { 
-		width: 23%;
-	}
-	.content-details h6 { 
-		font-size: 0.9em;
-	}	*/
  
