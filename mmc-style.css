@@ -81,6 +81,25 @@ ul.square {
 .pad-20 {
 	padding: 20px;	
 }
+
+.btn:hover .nav-link {
+	padding-left: 3px;
+	color: #1f3072;
+	font-size: 12px;
+}
+/* navbar********/
+.navbar .nav-link {
+	padding-left: 3px;
+	color: #1f3072;
+	font-size: 12px;
+}
+.navbar .nav-link a:hover{
+	font-weight: bold;
+}
+#section-wrapper{
+	padding-top: 140px;
+}
+
 .reduce-img-size {
 	max-width: 14rem;
 }
@@ -89,7 +108,7 @@ ul.square {
 	margin-left: 40px;
 }
 .mtop {
-	margin-top: 40px;
+	margin-top: 44%;
 }
 .m-t20 {
 	margin-top: 20px;
@@ -98,7 +117,8 @@ a {
 	color:rgb(207, 202, 202);
 }
 a:hover{
-	color: darkgray;
+	color: rgb(52, 68, 112);
+	font-weight: 700;
 }
 * {
     border-color: #e1e1e1;
@@ -127,63 +147,7 @@ a:hover{
 	margin-right: 0;
 	margin-left: 0;
 } 
-/***   navbar   **/
-.top-contact {
-	float: right;
-	padding: 7px;
-}
-.top-contact a {
-	color: white;
-}
-.navbar-brand > img {
-    width: 100px;
-	color: rgb(182,8,8);
-}
-#navbar_top {
-	padding-top: 50px;
-}
-.navbar-light{
-	background-color: white;
-}#quote {
-	float: right;
-}
-.navbar-light .navbar-brand {
-	padding-top: 0rem;
-	padding-bottom: 0rem;		
-} 
-.navbar-light .navbar-nav .nav-link {
-	color: #3551bb;
-	font-weight: 500;
-	padding: 0.2rem;
-}
-/*.navbar-nav li a {
-    -webkit-transition: transform 0.5s linear;
-	transition: transform 0.5s linear;
-}
-.navbar-nav a:hover, .navbar-nav a:hover::before, .navbar-nav a:hover::after, .navbar-nav a:focus::before, .navbar-nav a:focus::after {
-	color: #000;
-	background-color: transparent !important;	
-	opacity: 1;
-	transform: translateX(0px);
-}*/
-.nav-link a:hover {
-	color:#296961;
-}
-.navbar .navbar-toggler{
-	background-color:#ffffffab;
-}
-.navbar .navbar-collapse {
-	background-color:#ffffff76;
-	padding-left: 2rem;
-}
 
-/*#wrapper {
-	position: absolute;
-	width: 100%;
-	padding-top: 0px;
-	overflow-x: hidden;
-	display: block;	
-}*/
 .title {
 	text-transform: uppercase;
 }
@@ -216,10 +180,8 @@ a:hover{
 .page-section {
 	display: block;
 	position: relative;
-	padding: 70px 0 0;
-	overflow-x:hidden;
-	-webkit-transition: all 25s ease-in-out;
-	transition: all 25s ease-in-out;	
+	padding-top: 150px;
+	overflow-x:hidden;	
 } 
 .section-title {
   border-bottom-width: 0px;
@@ -241,11 +203,11 @@ a:hover{
 	padding: 10px 0;
 }
 
-img-responsive { 
+/*img- { 
 	width: 100%;
 	max-width: 100%;
 	height: auto;
-}
+}*/
 .wrapper {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
@@ -431,10 +393,3 @@ hr {
     border: 0;
     border-top: 5px solid rgb(38 59 129);
 }
-
-
-
-
-
-
- 
