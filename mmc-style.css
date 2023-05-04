@@ -21,6 +21,9 @@ img {
 	max-width: 100%;
 	display: block;
 }
+.reduce-img-size{
+	max-width: 10rem;
+}
 .bg-red {
 	background-color: rgb(182, 8, 8);
 }
@@ -90,7 +93,7 @@ ul.square {
 	font-weight: bold;
 }
 #section-wrapper{
-	padding-top: 140px;
+	padding-top: 160px;
 }
 .m-lr40 {
 	margin-right:40px;
@@ -197,7 +200,9 @@ a:hover{
 }*/
 .wrapper {
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
+	/*grid-template-columns: repeat(3, 1fr);*/
+	grid-template-columns: auto auto auto;
+	
 	gap: 7px;
   }
   .one {
