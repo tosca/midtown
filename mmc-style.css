@@ -77,6 +77,15 @@ ul.square {
 .pad-20 {
 	padding: 20px;	
 }
+.thumbnail {
+	width: 200px;
+}
+.thumb {
+max-width: 300px;
+}
+.thumb-small {
+	width: 100px;
+}
 .btn:hover .nav-link {
 	padding-left: 3px;
 	color: #1f3072;
@@ -398,11 +407,12 @@ a {
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) { 
 	.navbar-nav .nav-link {
+		width: 5rem;
 		font-size: 22px;
 		padding-left: 12px;
 		}
 	.navbar-brand img{
-		width: 150px;
+
 		padding-left: 20px;
 		padding-right: 20px;
 	}

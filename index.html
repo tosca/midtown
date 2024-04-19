@@ -14,7 +14,7 @@
    <nav class="navbar fixed-top bg-light">
         <div class="container-fluid">
             <a class="navbar-brand active" aria-current="page" href="#home">
-                <img src="img/MMC-logo.jpg" width="110" height="38" alt="MMC Logo" />
+                <img src="img/MMC-logo.jpg" alt="MMC Logo" />
             </a> 
             <a class="btn btn-danger" role="button" href="#contact" id="quote">Request a Quote</a>   
             <div class="navbar-nav mx-auto">
@@ -30,12 +30,12 @@
         </div>    
     </nav>
     
-    <div id="section-wrapper">     
+    <div id="section-wrapper" class="container-fluid">     
         <section id="home">
             <img class="home-img mx-auto" src="img/MMC.home.banr-3.jpg" alt="Chicago skyline and Lake Michigan waterpump">
         </section>
         <section id="about" class="page-section">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col-sm-6">
                         <div class="features-list features-list-left">
@@ -47,79 +47,34 @@
                                     <h4 class="text-center red">Relationships</h4>
                                     <p> Tom Walker, owner of Midtown Mechanical Corporation and his loyal team have been responsively servicing our customer's "Total Indoor Air Comfort" &mdash; since 1994.
                                     </p>
-                                    <p>We believe our success has been built upon on a foundation of a trusting relationship. MMC selects reliable heating and air conditioning equipment which, in our experience, is best fitted for each unique customer.  Our mechanical craftsmen &mdash; repair, replace, and install equipment with little interruption or inconvenience to each customer. Our customers have referred their friends to us, and that relationship has helped to grow our business into the responsive HVAC company that has kept &quot;Indoor Air&quot; comfortable for Chicagoans.</p>
+                                    <p>We believe our success has been built upon on a foundation of a trusting relationship. MMC selects reliable heating and air conditioning equipment which, in our experience, is best fitted for each unique customer.  Our mechanical craftsmen &mdash; repair, replace, and install equipment with little interruption or inconvenience to each customer. Our customers have referred their friends to us, and that relationship has helped to grow our business into the responsive HVAC company that has kept &quot;Indoor Air&quot; comfortable for Chicagoans.
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-6 text-center"> 
                         <a class="btn btn-danger" href="#contact" role="button">CONTACT US TO SCHEDULE MAINTENANCE</a>               
-                        <img class="p-3 img-fluid mx-auto d-flex" src="img/furnace.jpg" alt="furnace installation by MMC Midtown Mechanical Corp." />
-                    </div>
+                        <div class="text-center pt-5 m-5 bg-blue white">
+                                        <h4 class="p-3">Contract Free Preventative Maintenance<br />
+                                            Prompt Response<br />
+                                            Committed to your Schedule<br />
+                                            Expert on all major equipment<br />
+                                            Service Maintenance Reminders
+                                        </h4>
+                                    </div>
+                        <img src="img/mmc-serviceman.jpg" class="img-fluid p-3 mx-auto thumb" alt="MMC Serviceman servicing a furnace" />
+                        </div>
                 </div>
-                <div class="row">
-                    <div class="col-s-6">
-                    <div class="section-title">
-                    <h2 class="title blue">products</h2>
-                </div>
+                
            </div>
-            <div class="row">
-                <div class="col-sm-3">
-                    <div class="products-card text-center">
-                        <h4>COOLING</h4>
-                        <img src="img/carrierInfinity21.jpg" class="img-fluid" alt="Carrier Infinity 21 air conditiioner" />
-                        <div class="products-card-text">
-                            <p>Carrier Home Comfort Systems / <br />
-                            Commercial HVAC Solutions<br />
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <!-- heating -->
-                <div class="col-sm-3">
-                    <div class="products-card text-center">
-                        <h4>HEATING</h4>
-                        <img src="img/carrierfurnace.jpg"  class="img-fluid" alt="Carrier Heaters" />
-                        <div class="products-card-text">
-                            <p> Carrier furnaces</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- air comfort-->
-                <div class="col-sm-3">
-                    <div class="products-card text-center">
-                        <h4>AIR COMFORT</h4>
-                        <img src="img/honeywell-thermo.png" class="img-fluid p-lr" alt="Honeywell Home T6 Pro Smart Thermostat Multi-stage 2 heat/2 cool" />
-                        <div class="products-card-text">
-                            Honeywell Smart Thermostat / <br />
-                            Aprilaire Humidifiers /<br />
-                            Aprilaire Whole Home Dehumidifiers
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Services -->
-                <div class="col-sm-3">
-                    <div class="products-card text-center">
-                        <h4>SERVICE</h4>
-                        <img src="img/mmc-serviceman.jpg" class="img-fluid" alt="MMC Serviceman servicing a furnace" />
-                        <div class="products-card-text">
-                            <p>Contract Free Preventative Maintenance<br />
-                                Prompt Response<br />
-                                Committed to your Schedule<br />
-                                Expert on all major equipment<br />
-                                Service Maintenance Reminders
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+           
         </section>
         <hr>
         <section id="cooling" class="page-section">
             <div class="container"> 
                 <div role="tabpanel" class="right-tabs">
-                    <ul class="nav nav-tabs flex-column shadow p-3 mb-5 bg-white rounded" id="mmcTab" role="tablist">
+                    <ul class="nav nav-tabs flex-column shadow p-1 mb-5 bg-white rounded" id="mmcTab" role="tablist">
                         <li class="nav-item" role="presentation">
                             <button class="nav-link active" id="actips-tab" data-bs-toggle="tab" data-bs-target="#cooling-tips" type="button" role="tab" aria-controls="cooling-tips" aria-selected="true"><div class="title">A/C TIPS</div></button>
                         </li>
@@ -144,7 +99,7 @@
                         <p class="p-lr">Is your air conditioner the most efficient and effective product for your living space?
                         </p>
                         <img src="img/projects/project-26.jpg" alt="Carrier air conditioner" class="left-box p-3" />
-                        <h4 class="title green">Air Conditioner Spring Maintenance Tips</h4>
+                        <h4 class="title green">Air Conditioner Spring Maintenance Tips</h4><br>
                         <ul class="square">
                             <li>Shut off power to your central A/C before beginning any air conditioner maintenance.</li>
                             <li>Check your refrigerant levels by feeling the pipe connected to your A/C unit. If it doesn't feel cool-ish (around 60 degrees), you may be low on refrigerant.</li>
@@ -216,7 +171,7 @@
         <section id="heating" class="page-section">
             <div class="container">
                 <div role="tabpanel" class="right-tabs">
-                    <ul class="nav nav-tabs flex-column shadow p-3 mb-5 bg-white rounded" id="heatTab" role="tablist">
+                    <ul class="nav nav-tabs flex-column shadow p-1 mb-5 bg-white rounded" id="heatTab" role="tablist">
                         <li class="nav-item" role="presentation">
                             <button class="nav-link active" id="heat-tips" data-bs-toggle="tab" data-bs-target="#furnace-tips" type="button" role="tab" aria-controls="furnace-tips" aria-selected="true"><div class="title">FURNACE TIPS</div></button>
                         </li>
@@ -321,34 +276,56 @@
                     </div>
                 </div>
             </div>
-        </section> 
+        </section>
+        <hr /> 
         <section id="service" class="page-section">
             <div class="section-title">
                 <h2 class="title blue">Expert Service Technicians</h2>
             </div>
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col-sm-4">        
                         <img class="shadow" src="img/mmctruck.jpg" alt="Expert Technician Visit" width="314" height="207" />
-                    <h4 class="title blue">Timing is Everything</h4>
+                        <h4 class="title blue py-3">Timing is Everything</h4>
                         <p class="blue">
                             Rely on us to respond promptly to your needs, no matter when an air conditioning problem occurs.
                         </p>
+                        <p> Our expert AC technicians will arrive on time, and when it is convenient for you. We will quickly diagnose your AC problem and prepare an estimate for the needed repairs. After discussing the estimate with you, answering all your questions, and getting your approval, we'll make the AC repairs quickly and efficiently. Our customers' confidence in us is justified by our long experience in this field and our outstanding service record.
+                        </p> 
                     </div>             
                     <div class="col-sm-4">
-                    <p> Our expert AC technicians will arrive on time, and when it is convenient for you. We will quickly diagnose your AC problem and prepare an estimate for the needed repairs. After discussing the estimate with you, answering all your questions, and getting your approval, we'll make the AC repairs quickly and efficiently. Our customers' confidence in us is justified by our long experience in this field and our outstanding service record.
-                        </p> 
-                        <h4 class="title blue">Manufacturers Support</h4>
-                        <p>Our years of loyalty with our manufacturers, benefits our clients when we need urgent and accurate support.</p>
+                      <h4 class="title blue">Manufacturers Support</h4>  
+                        <p>
+                            Our years of loyalty with our manufacturers, benefits our clients when we need urgent and accurate support.
+                        </p>
+                        <h4 class="text-center pt-4">COOLING</h4>
+                       <img src="img/carrierInfinity21.jpg" class="px-5 img-fluid mx-auto thumb" alt="Carrier Infinity 21 air conditiioner" />
+                       <div class="products-card-text">
+                            <p class="mx-auto">Carrier Home Comfort Systems <br />
+                                Commercial HVAC Solutions<br />
+                            </p>
+                        </div>
+                        <h4 class="text-center pt-5">HEATING</h4>
+                        <img src="img/carrierfurnace.jpg"  class="img-fluid mx-auto thumbnail" alt="Carrier Heaters" />
+                        <div class="products-card-text">
+                            <p class="mx-auto"> Carrier furnaces</p>
+                        </div> 
                     </div>
                     <div class="col-sm-4">
+                        <h4 class="text-center">AIR COMFORT</h4>
+                        <img src="img/honeywell-thermo.png" class="img-fluid mx-auto thumbnail" alt="Honeywell Home T6 Pro Smart Thermostat Multi-stage 2 heat/2 cool" />
+                        <div class="products-card-text">
+                           <p> Honeywell Smart Thermostat</p>
+                           <p> Aprilaire Humidifiers</p>
+                           <p> Whole Home Dehumidifiers</p>
+                        </div>
+                        <h4 class="title blue pt-4">Service All Major Brands</h4>
+                        <p>Our Midtown Mechanical technicians service all major brands of HVAC equipment. We supply the most needed parts, and have the right test equipment and tools to diagnose and repair your system as quickly as possible.
+                        </p>
                         <h4 class="title blue">Money Saving Efficiency</h4>
                         <p> To anticipate the specialized needs of our diverse customer-base and to build an awareness towards "money saving" efficiency, we have expanded and integrated our core compentencies to include custom sheet metal and ductwork that is environmentally clean and up to the code of future years.
                         </p>
-                        <h4 class="title blue">Service All Major Brands</h4>
-                        <p>Our Midtown Mechanical technicians service all major brands of HVAC equipment. We supply the most needed parts, and have the right test equipment and tools to diagnose and repair your system as quickly as possible.</p>
                     </div>
-                    <div class="clearfix"></div>
                 </div>
             </div>
         </section>
