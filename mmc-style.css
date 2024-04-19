@@ -15,9 +15,9 @@ html {
 	font-family: 'Arimo', 'Open Sans', sans-serif;
 	font-family: 'Oswald', 'Open Sans', sans-serif;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 1rem;
+	font-size: 17px;
 	line-height: 1.6;
-	background-color: #fff;
+	background-color: #f5f5f8;
 	color: rgb(34 34 34);
  }
 img {
@@ -29,9 +29,6 @@ img {
 }
 .bg-red {
 	background-color: rgb(182, 8, 8);
-}
-.light-bg {
-    background: #e2dddd;
 }
 .title {
     font-family: 'Oswald', sans-serif;
@@ -83,12 +80,12 @@ ul.square {
 .btn:hover .nav-link {
 	padding-left: 3px;
 	color: #1f3072;
-	font-size: 12px;
 }
 /* navbar********/
 .navbar .nav-link {
 	padding-left: 3px;
 	color: #1f3072;
+	font-family: 'Oswald', 'Open Sans', sans-serif;
 	font-size: 12px;
 }
 .navbar .nav-link a:hover{
@@ -128,6 +125,9 @@ a:hover{
 }
 .title {
 	text-transform: uppercase;
+}
+.products-card h4 {
+	font-family: 'Oswald', sans-serif;	
 }
 .left-box {
     float: left;
