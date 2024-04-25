@@ -12,13 +12,14 @@ html {
  }
  body {
 	 margin: 0 auto;
-	font-family: 'Arimo', 'Open Sans', sans-serif;
-	font-family: 'Oswald', 'Open Sans', sans-serif;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 17px;
 	line-height: 1.6;
 	background-color: #f5f5f8;
 	color: rgb(34 34 34);
+ }
+ .h1, .h2, .h3, .h4, .h5 {
+	font-family: 'Oswald', 'Open Sans', sans-serif;
  }
 img {
 	max-width: 100%;
@@ -32,6 +33,7 @@ img {
 }
 .title {
     font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
 }
 .light-bg  {
 	background-color: #dee2e6;
@@ -39,7 +41,7 @@ img {
 .white {
 	color: #fff;
 }
-.blue {
+.blue {		
 	color:#263b81;
 }
 .bg-blue {
@@ -127,14 +129,16 @@ a:hover{
 }*/
 .home-img {
 	padding-top:90px;
-	display: block;
+	display: blo 
+	ck;
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 }
-.title {
-	text-transform: uppercase;
+.border-1 { 
+	border :1px solid red;
 }
+
 .products-card h4 {
 	font-family: 'Oswald', sans-serif;	
 }
