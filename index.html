@@ -737,6 +737,40 @@
             <div class="text-center py-3"> <script type="text/javascript">document.write(new Date().getFullYear());</script>&mdash; Midtown Mechanical Corporation &mdash; Heating and Cooling Services <br />
             </div>
         </footer>
+     
+<script>
+function pushFormDataToDataLayer(event) {
+    event.preventDefault();
+    const name = document.getElementById('name')?.value || '';
+    const email = document.getElementById('email')?.value || '';
+    const phone = document.getElementById('phone')?.value || '';
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+        event: 'form_submission',
+        form_name: 'contact-form',
+        user_name: name,
+        user_email: email,
+        user_phone: phone
+    });
+    // Uncomment this to actually submit the form
+    // event.target.submit();
+}
+</script>
+
+<script>
+function pushPhoneCallEvent() {
+  window.dataLayer = window.dataLayer || [];
+  window.dataLayer.push({
+    event: 'phone_call_click',
+    phone_number: '+17737228145'
+  });
+}
+</script>
+
+
+
+
+
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
