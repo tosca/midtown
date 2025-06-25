@@ -50,8 +50,11 @@ img {
 .red{
 	color:rgb(182, 8, 8)
 }
+.bg-green {
+	background-color: rgb(1, 131, 1);
+}
 .green {
-	color: rgb(1, 131, 1);
+	color: green;
 }
 .grey-bg {
 	background-color: #ced3d5;
@@ -103,7 +106,7 @@ max-width: 300px;
 	font-weight: bold;
 }
 #section-wrapper{
-	padding-top: 110px;
+	padding-top: 80px;
 }
 .m-lr40 {
 	margin-right:40px;

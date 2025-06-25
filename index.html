@@ -36,20 +36,22 @@
 
     <!-- End Google Tag Manager (noscript) -->
    
-<nav class="navbar fixed-top bg-light">
+    <nav class="navbar fixed-top bg-light">
         <div class="container-fluid">
             <a class="navbar-brand active" aria-current="page" href="#home">
                 <img src="img/MMC-logo.jpg" alt="MMC Logo" />
             </a>
-            <a class="btn btn-danger" role="button" href="#contact" id="quote">Request a Quote</a>
+            <a class="btn btn-danger" role="button" href="#mmc-contact-form" id="form">Request a Quote</a>
             <div class="navbar-nav mx-auto">
                 <div class="d-flex">
-                    <a class="nav-link me-2" href="#about">ABOUT</a>
+                    <a class="nav-link me-2" href="#about">HVAC</a>
                     <a class="nav-link me-2" href="#cooling">COOLING</a>
                     <a class="nav-link me-2" href="#heating">HEATING</a>
+                    <a class="nav-link me-2" href="#split-systems">SPLIT</a>
+
                     <a class="nav-link me-2" href="#service">SERVICE</a>
                     <a class="nav-link me-2" href="#projects">PROJECTS</a>
-                    <a class="nav-link me-2" href="#contact">CONTACT</a>
+                    <a class="nav-link me-2" href="#contact">CONTACTS</a>
                 </div>
             </div>
         </div>
@@ -57,7 +59,7 @@
 
     <div id="section-wrapper" class="container-fluid">
         <section id="home">
-            <img class="home-img mx-auto" src="img/MMC.home.banr-3.jpg"
+            <img class="home-img mx-auto pt-4" src="img/MMC.home.banr-3.jpg"
                 alt="Chicago skyline and Lake Michigan waterpump">
         </section>
         <section id="about" class="page-section">
@@ -74,26 +76,13 @@
                                         learning thermostat installation, boilers, custom sheet metal work and ductwork
                                         within Chicagoland and the surrounding areas.
                                     </p>
-                                    <h4 class="text-center red">Relationships</h4>
-                                    <p> Tom Walker, owner of Midtown Mechanical Corporation and his loyal team have been
-                                        responsively servicing our customer's "Total Indoor Air Comfort" &mdash; since
-                                        1994.
-                                    </p>
-                                    <p>We believe our success has been built upon on a foundation of a trusting
-                                        relationship. MMC selects reliable heating and air conditioning equipment which,
-                                        in our experience, is best fitted for each unique customer. Our mechanical
-                                        craftsmen &mdash; repair, replace, and install equipment with little
-                                        interruption or inconvenience to each customer. Our customers have referred
-                                        their friends to us, and that relationship has helped to grow our business into
-                                        the responsive HVAC company that has kept &quot;Indoor Air&quot; comfortable for
-                                        Chicagoans.
-                                    </p>
+                                   
                                 </div>
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-6">
                                             <img src="img/mmc-serviceman.jpg" class="img-fluid pb-3" alt="MMC Serviceman servicing a furnace" />
-                                            <a class="btn btn-danger" href="#contact" role="button">CONTACT US TO SCHEDULE MAINTENANCE</a>
+                                            <a class="btn btn-danger" href="#contact" role="button">CONTACT MIDTOWN TO SCHEDULE MAINTENANCE</a>
                                         </div>
                                         <div class="col-6">
                                             <div class="text-center bg-blue white">
@@ -111,51 +100,185 @@
                         </div>
                     </div>
                     <div class="col-sm-6 border">
-                        <img src="img/mitsu-logo-trans.png" class="img-fluid mx-auto thumb" alt="MITSUBISHI ELECTRIC SPLIT SYSTEMS" /> 
-                        <h2 class="blue display-5 text-center">Mini Split Systems
-                         </h2>
-                        <img src="img/split-sys-01.jpg" class="img-fluid thumb ms-5" alt="MITSUBISHI ELECTRIC SPLIT SYSTEMS logo" />
-                         <a class="btn btn-success text-auto mt-3" role="button" href="#split-systems" id="split-systems-quote">
-                            HOME COMFORT for:<br>
-                            Hot and cold rooms<br>
-                            Additions/Renovations<br>
-                            Enclosed patios<br>
-                            Homes without space for ductwork<br>
-                            Larger, multi-zone living spaces <br>
-                            - more about Split-Systems - 
-                        </a>
-                         <div class="text-center py-3 m-5 bg-blue white">
-                            <h6 class="p-2">Mini Split Systems provides both <br> cool + heat air comfort <br><br>
-                                Helps Reduce High Enegy Costs<br><br>
-                                Fixes Troublesome Hot or Cold Rooms<br><br>
-                                Reduces Renovation Expenses
-                            </h6>
+                         <h4 class="text-center red">
+                            Relationships</h4>
+                        <p> Tom Walker, owner of Midtown Mechanical Corporation and his loyal team have been
+                            responsively servicing our customer's "Total Indoor Air Comfort" &mdash; since
+                            1994.
+                        </p>
+                        <p>We believe our success has been built upon on a foundation of a trusting
+                            relationship. MMC selects reliable heating and air conditioning equipment which,
+                            in our experience, is best fitted for each unique customer. Our mechanical
+                            craftsmen &mdash; repair, replace, and install equipment with little
+                            interruption or inconvenience to each customer. Our customers have referred
+                            their friends to us, and that relationship has helped to grow our business into
+                            the responsive HVAC company that has kept &quot;Indoor Air&quot; comfortable for
+                            Chicagoans.
+                        </p>
+                    
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>        
+        <section id="cooling" class="page-section">
+            <div class="container-fluid"> 
+                <div role="tabpanel" class="right-tabs">
+                    <ul class="nav nav-tabs flex-column shadow p-1 mb-5 bg-white rounded" id="coolTab" role="tablist">                     
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="actips-tab" data-bs-toggle="tab" data-bs-target="#cooling-tips" type="button" role="tab" aria-controls="cooling-tips" aria-selected="true"><div class="title">A/C TIPS</div></button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="acrepair-tab" data-bs-toggle="tab" data-bs-target="#cooling-repair" type="button" role="tab" aria-controls="cool-repair" aria-selected="false"><div class="title">A/C REPAIR</div></button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="acmaint-tab" data-bs-toggle="tab" data-bs-target="#cooling-maintenance" type="button" role="tab" aria-controls="cool-maintenance" aria-selected="false"><div class="title">A/C MAINTENANCE</div></button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="acnew-tab" data-bs-toggle="tab" data-bs-target="#cooling-sales" type="button" role="tab" aria-controls="cool-sales" aria-selected="false"><div class="title">NEW INSTALLATION</div></button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="acnew-tab" data-bs-toggle="tab" data-bs-target="#mmc-contact-form" type="button" role="tab" aria-controls="mmc-contact-form" aria-selected="false"><div class="title">CONTACT US</div></button>
+                        </li>  
+                    </ul>
+                </div>   
+   
+                <h2 class="title red">COOLING</h2>
+                <div class="tab-content" id="acTabContent">
+                    <!-- cooling-tips -->
+                    <div class="tab-pane fade show active" id="cooling-tips" aria-labelledby="actips-tab">
+                      
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <img src="img/projects/project-26.jpg" class="img-fluid" alt="Carrier air conditioner" />
+                                <a class="btn btn-danger m-5 p-3" role="button" href="#mmc-contact-form" id="request">We'll Tackle the Heat for you!</a>
+                            </div>
+                            <div class="col-sm-8">
+                                <h4 class="title green">Air Conditioner Spring Maintenance Tips</h4>
+                                <ul class="square">
+                                    <li>Shut off power to your central A/C before beginning any air conditioner maintenance.
+                                    </li>
+                                    <li>Check your refrigerant levels by feeling the pipe connected to your A/C unit. If it
+                                        doesn't feel cool-ish (around 60 degrees), you may be low o n refrigerant.</li>
+                                    <li>Don't forget to replace dirty A/C filters! They put more strain on your A/C unit than
+                                        clean filters and increase your energy consumption.</li>
+                                    <li>Clean your air conditioner's ceiling registers. While this task doesn't affect your A/C
+                                        unit directly, it does help ensure all its hard work doesn't go to waste.</li>
+                                    <li>Keep the area around your outdoor A/C unit free of grass, weeds and debris that could
+                                        interfere with its performance.</li>
+                                    <li>If the concrete slab on which your outdoor A/C unit sits isn't level (use a carpenter's
+                                        level to find out), add rocks, gravel, or dirt underneath to level it out to ensure your
+                                        A/C runs as efficiently as possible</li>
+                                    <li>Have MMC clean your evaporator coil every couple years to prevent debris build-up.</li>
+                                </ul>
+                                      
+                            </div>
+                        </div>  
+                    </div>
+                    <!-- cooling-repair -->
+                    <div class="tab-pane fade" id="cooling-repair" aria-labelledby="acrepair-tab">
+                        <h4 class="title green">A/C Repair & Replace</h4>
+                        <p>It's Chicago weather, where it can be cold one day and then hot and humid the next day.
+                        </p>
+                        <p>Controlling the &quot;TOTAL INDOOR AIR COMFORT&quot; of Chicago's extreme weather changes
+                            for it's residents and business owners, is the Midtown Mechanical Corporation's mission.
+                        </p>
+                        <img src="img/projects/project-12.jpg" class="p-3" alt="air conditioners"  />
+                        <h4 class="title red">DID YOU KNOW? Some things&mdash; you can DO YOURSELF!
+                        </h4>
+                        <p>If you smell gas, don't delay when you need air conditioner or heater repair.
+                            send everyone out of your home and call your gas provider’s emergency telephone number
+                            immediately. If your air conditioner won’t cool, makes odd noises or freezes up, turn your
+                            thermostat to “off” and call MMC without bootstrap tab-panedelay. Running your A/C system when it isn’t
+                            working properly can turn a small repair into a much larger one.
+                        </p>
+                        <h4 class="title red">Change your air filters</h4>
+                        <p>For your health, comfort and financial well-being, change or clean your air conditioning
+                            filters regularly per the manufacturers specifications. Depending on your equipment, the
+                            type of air filters you use, and the quality of the air being filtered, air filters need to
+                            be changed (or cleaned) somewhere between twice a month to once per year. On the disposable
+                            air filters, changing them once per month when you pay your utility bill is a good way to
+                            remember. Never run your heating and air conditioning system without the correct air filter
+                            in place.</p>
+
+                        <h3 class="title red">Check your air ducts</h3>
+                        <p>Have your air ducts checked periodically for leaks. Leaking ducts cause more than 20% of the
+                            losses of heating and cooling, according to the U.S. Department of Energy. Air duct checking
+                            and leak detection is part of the MMC maintenance program. If air ducts are located in a hot
+                            or cold space such as an attic, have the outside of the ducts insulated to reduce heat loss.
+                            Repairing leaky ducts causes wear and tear on both your heating and cooling equipment and lowers
+                            your monthly bills.
+                        </p>
+                        <a class="btn btn-danger m-3 p-2" role="button" href="#mmc-contact-form" id="quote">Let's lower air conditioning costs</a>
+                           
+
+                    </div>
+                    <!-----cooling maintenance-->
+                    <div class="tab-pane fade" id="cooling-maintenance" aria-labelledby="acmaint-tab">
+                        <h4 class="title green">A/C Service & MAINTENANCE</h4>
+                        <h4 class="title green"></h4>
+                        <h5 class="green">Start in Spring! Enjoy your Summer. Indoor and out!<img src="img/mmc-maint-ac.jpg"
+                                alt="spring and Summer airconditioner tuneup" class="right-box p-lr" /><br />
+                        </h5>
+                        <br />
+                        <p>Contact Midtown Mechanical to <a class="btn btn-danger" role="button" href="#mmc-contact-form" id="quote">Schedule an Appointment</a><br>     
+                             Our expert technicians will come to your residence or work location and run a thorough maintenance check on your A/C equipment.
+                        </p>
+                        <br />
+                        <p>Call us at <a href="tel:7737228145" class="red">773-722-8145</a>
+                            or request an appointment using our online<a class="title blue" href="#contact"> Contact
+                                Form</a>
+                            </p>
+                        <p>Midtown Mechanical will service all of your air conditioning needs whether installing a new
+                            system, maintaining
+                            your current system or repairing most major brands of your existing air conditioner. We can
+                            provide you with a quality
+                            and durable air conditioning unit that will give you the cooling relief that you need from
+                            the vicious Chicago heat.
+                        </p>
+                    </div>
+                    <!-- cooling-sales -->
+                    <div role="tabpanel" class="tab-pane fade" id="cooling-sales" aria-labelledby="acnew-tab">
+                        <h4 class="green">New Air Conditioner Sales & Installation</h4>
+                        <p> Midtown Mechanical repairs, sells and installs all major brands of Air Conditioners into
+                            all neighborhoods of Chicago. Our years of experience, have lead us to focus on a range of
+                            cooling products, that work best for smaller to larger indoor areas, from lower to higher
+                            price ranges.
+                        </p>
+                        <p>
+                            We are equiped to service the total Chicago population of residential and commercial
+                            customers.
+                        </p>
+                        <div>
+                            <h4>Carrier Air Conditioners</h4>
+                            <img src="img/carrierInfinity21.jpg" class="img-fluid float-start" alt="Carrier Air Conditioners" />
+                            <h4>Aprilaire WiFi Thermostats</h4>
+                            <img src="img/AprilaireWiThermo.jpg" class="img-fluid float-end" alt="Aprilaire WiFi Thermostats" />
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <hr>
-        <!-- split panel -->
+        <hr />
         <section id="split-systems" class="page-section">
             <div class="container-fluid">
                 <div role="tabpanel" class="right-tabs">
                     <ul class="nav nav-tabs flex-column shadow p-1 mb-5 bg-white rounded" id="mmcTab" role="tablist">                                 
                         <li class="nav-item" role="presentation">
                             <button class="nav-link active"  data-bs-toggle="tab"
-                             data-bs-target="#split-air" type="button" role="tab" aria-controls="split-systems" aria-selected="true">
+                             data-bs-target="#split-air" type="button" role="tab" aria-controls="split-air" aria-selected="true">
                                 <div class="title">SPLIT-SYSTEMS</div>
                             </button>
                         </li>                        
                         <li class="nav-item" role="presentation">
                             <button class="nav-link" id="split-apply-tab" data-bs-toggle="tab" 
-                                data-bs-target="#split-apply" type="button" role="tab" aria-controls="apply-split" aria-selected="false">
+                                data-bs-target="#split-apply" type="button" role="tab" aria-controls="split-apply" aria-selected="false">
                                 <div class="title">SPLIT-SYSTEM APPLICATION</div>
                             </button>
                         </li>
                         <li class="nav-item" role="presentation">
                             <button class="nav-link" id="split-energy-tab" data-bs-toggle="tab" 
-                                data-bs-target="#split-energy" type="button" role="tab" aria-controls="apply-energy" aria-selected="false">
+                                data-bs-target="#split-energy" type="button" role="tab" aria-controls="split-energy" aria-selected="false">
                                 <div class="title">SPLIT-SYSTEM ENERGY</div>
                             </button>
                         </li>
@@ -172,10 +295,32 @@
                 <div class="tab-content" id="splitTabContent"> 
                    <!-- split-systems -->
                     <div class="tab-pane fade show active" id="split-air">
-                        <h4 class="title green text-center" py-4>Help Reduce High Energy Costs<br> 
-                            Fix Troublesome Hot or Cold Rooms<br> 
-                                Reduce Renovation Expenses
-                        </h4>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col"><img src="img/mitsu-logo-trans.png" class="img-fluid mx-auto thumb" alt="MITSUBISHI ELECTRIC SPLIT SYSTEMS" /> 
+                                 <img src="img/split-sys-01.jpg" class="img-fluid thumb ms-2" alt="MITSUBISHI ELECTRIC SPLIT SYSTEMS logo" /></div>
+                                <div class="col">
+                                    <div class="text-center py-3 m-3 bg-green white">
+                                        <h6 class="p-2">HOME COMFORT for:<br><br>
+                                        Hot and cold rooms<br>
+                                        Additions/Renovations<br>
+                                        Enclosed patios<br>
+                                        Homes without space for ductwork 
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="col"> 
+                                    <div class="text-center py-3 m-3 bg-blue white">
+                                        <h6 class="p-2">Mini Split Systems provides both <br><br> cool + heat air comfort <br><br>
+                                            Helps Reduce High Enegy Costs<br><br>
+                                            Fixes Troublesome Hot or Cold Rooms<br><br>
+                                            Reduces Renovation Expenses
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                            
                         <p>Is your air conditioner the most efficient and effective product for your living
                              space?<br>Midtown Mechanical can install a wall-mounted heating and cooling unit which are a great solution for any room or a whole home. Ductless wall mounts are quicker and easier and less expensive to install than conventional central systems. We offer a wide range of indoor HVAC wall unit styles to meet the requirements of any space.
                         </p>
@@ -212,143 +357,6 @@
                         </p>
                         <div class="text-center">
                             <img src="img/mini-split-out.jpg" class="img-fluid mx-auto d-block" width="300" alt="mini-split outdoor unit" />   
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <hr />
-
-        <section id="cooling" class="page-section">
-            <div class="container-fluid"> 
-                <div role="tabpanel" class="right-tabs">
-                    <ul class="nav nav-tabs flex-column shadow p-1 mb-5 bg-white rounded" id="coolTab" role="tablist">
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="actips-tab" data-bs-toggle="tab" data-bs-target="#cooling-tips" type="button" role="tab" aria-controls="cooling-tips" aria-selected="true"><div class="title">A/C TIPS</div></button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="acrepair-tab" data-bs-toggle="tab" data-bs-target="#cooling-repair" type="button" role="tab" aria-controls="cool-repair" aria-selected="false"><div class="title">A/C REPAIR</div></button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="acmaint-tab" data-bs-toggle="tab" data-bs-target="#cooling-maintenance" type="button" role="tab" aria-controls="cool-maintenance" aria-selected="false"><div class="title">A/C MAINTENANCE</div></button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="acnew-tab" data-bs-toggle="tab" data-bs-target="#cooling-sales" type="button" role="tab" aria-controls="cool-sales" aria-selected="false"><div class="title">NEW INSTALLATION</div></button>
-                        </li>
-                    </ul>
-                </div>   
-   
-                <h2 class="title red">COOLING</h2>
-                <div class="tab-content" id="acTabContent">
-                    <!-- cooling-tips -->
-                    <div class="tab-pane fade show active" id="cooling-tips" aria-labelledby="actips-tab">
-                        <h4 class="title green text-center">Air condition maintenance Tips</h4>
-                        <p>In order to enjoy a comfortable indoor living and working environment, do you
-                            run your air conditioner continally in summer weather?
-                        </p>
-                        <p>Is your air conditioner the most efficient and effective product for your living
-                            space?
-                        </p>
-                        <div class="row">
-                            <div class="col-sm-4">
-                                <img src="img/projects/project-26.jpg" class="img-fluid" alt="Carrier air conditioner" />
-                            </div>
-                            <div class="col-sm-8">
-                                <h4 class="title green">Air Conditioner Spring Maintenance Tips</h4><br>
-                                <ul class="square">
-                                    <li>Shut off power to your central A/C before beginning any air conditioner maintenance.
-                                    </li>
-                                    <li>Check your refrigerant levels by feeling the pipe connected to your A/C unit. If it
-                                        doesn't feel cool-ish (around 60 degrees), you may be low o n refrigerant.</li>
-                                    <li>Don't forget to replace dirty A/C filters! They put more strain on your A/C unit than
-                                        clean filters and increase your energy consumption.</li>
-                                    <li>Clean your air conditioner's ceiling registers. While this task doesn't affect your A/C
-                                        unit directly, it does help ensure all its hard work doesn't go to waste.</li>
-                                    <li>Keep the area around your outdoor A/C unit free of grass, weeds and debris that could
-                                        interfere with its performance.</li>
-                                    <li>If the concrete slab on which your outdoor A/C unit sits isn't level (use a carpenter's
-                                        level to find out), add rocks, gravel, or dirt underneath to level it out to ensure your
-                                        A/C runs as efficiently as possible</li>
-                                    <li>Have MMC clean your evaporator coil every couple years to prevent debris build-up.</li>
-                                </ul>
-                            </div>
-                        </div>  
-                    </div>
-                    <!-- cooling-repair -->
-                    <div class="tab-pane fade" id="cooling-repair" aria-labelledby="acrepair-tab">
-                        <h4 class="title green">A/C Repair & Replace</h4>
-                        <p>It's Chicago weather, where it can be cold one day and then hot and humid the next day.
-                        </p>
-                        <p>Controlling the &quot;TOTAL INDOOR AIR COMFORT&quot; of Chicago's extreme weather changes
-                            for it's residents and business owners, is the Midtown Mechanical Corporation mission.
-                        </p>
-                        <img src="img/projects/project-12.jpg" class="p-3" alt="air conditioners"  />
-                        <h4 class="title red">DID YOU KNOW? Some things&mdash; you can DO YOURSELF!
-                        </h4>
-                        <p>If you smell gas, don't delay when you need air conditioner or heater repair.
-                            send everyone out of your home and call your gas provider’s emergency telephone number
-                            immediately. If your air conditioner won’t cool, makes odd noises or freezes up, turn your
-                            thermostat to “off” and call MMC without bootstrap tab-panedelay. Running your A/C system when it isn’t
-                            working properly can turn a small repair into a much larger one.
-                        </p>
-                        <h4 class="title red">Change your air filters</h4>
-                        <p>For your health, comfort and financial well-being, change or clean your air conditioning
-                            filters regularly per the manufacturers specifications. Depending on your equipment, the
-                            type of air filters you use, and the quality of the air being filtered, air filters need to
-                            be changed (or cleaned) somewhere between twice a month to once per year. On the disposable
-                            air filters, changing them once per month when you pay your utility bill is a good way to
-                            remember. Never run your heating and air conditioning system without the correct air filter
-                            in place.</p>
-
-                        <h3 class="title red">Check your air ducts</h3>
-                        <p>Have your air ducts checked periodically for leaks. Leaking ducts cause more than 20% of the
-                            losses of heating and cooling, according to the U.S. Department of Energy. Air duct checking
-                            and leak detection is part of the MMC maintenance program. If air ducts are located in a hot
-                            or cold space such as an attic, have the outside of the ducts insulated to reduce heat loss.
-                            Having leaky ducts saves wear and tear on both your heating and cooling equipment and lowers
-                            your monthly bills.</p>
-                    </div>
-                    <!-----cooling maintenance-->
-                    <div class="tab-pane fade" id="cooling-maintenance" aria-labelledby="acmaint-tab">
-                        <h4 class="title green">A/C Service & MAINTENANCE</h4>
-                        <h4 class="title green"></h4>
-                        <h5 class="green">Start in Spring! Enjoy your Summer. Indoor and out!<img src="img/mmc-maint-ac.jpg"
-                                alt="spring and Summer airconditioner tuneup" class="right-box p-lr" /><br />
-                        </h5>
-                        <br />
-                        <p>Contact Midtown Mechanical to Request an Appointment. Our expert technicians will come to
-                            your residence or work location and run a thorough maintenance check on your A/C equipment.
-                        </p>
-                        <br />
-                        <p>Call us at <a href="tel:7737228145" class="red">773-722-8145</a>
-                            or request an appointment using our online<a class="title blue" href="#contact"> Contact
-                                Form</a>
-                            </p>
-                        <p>Midtown Mechanical will service all of your air conditioning needs whether installing a new
-                            system, maintaining
-                            your current system or repairing most major brands of your existing air conditioner. We can
-                            provide you with a quality
-                            and durable air conditioning unit that will give you the cooling relief that you need from
-                            the vicious Chicago heat.
-                        </p>
-                    </div>
-                    <!-- cooling-sales -->
-                    <div role="tabpanel" class="tab-pane fade" id="cooling-sales" aria-labelledby="acnew-tab">
-                        <h4 class="green">New Air Conditioner Sales & Installation</h4>
-                        <p> Midtown Mechanical repairs, sells and installs all major brands of Air Conditioners into
-                            all neighborhoods of Chicago. Our years of experience, have lead us to focus on a range of
-                            cooling products, that work best for smaller to larger indoor areas, from lower to higher
-                            price ranges.
-                        </p>
-                        <p>
-                            We are equiped to service the total Chicago population of residential and commercial
-                            customers.
-                        </p>
-                        <div>
-                            <h4>Carrier Air Conditioners</h4>
-                            <img src="img/carrierInfinity21.jpg" class="img-fluid float-start" alt="Carrier Air Conditioners" />
-                            <h4>Aprilaire WiFi Thermostats</h4>
-                            <img src="img/AprilaireWiThermo.jpg" class="img-fluid float-end" alt="Aprilaire WiFi Thermostats" />
                         </div>
                     </div>
                 </div>
@@ -504,6 +512,7 @@
             </div>
         </section>
         <hr />
+       
         <section id="service" class="page-section">
             <div class="section-title">
                 <h2 class="title blue">Expert Service Technicians</h2>
@@ -685,7 +694,7 @@
                     <div class="col-sm-6 pad-20">
                         <div class="row">
                             <div class="col-md-6">
-                                <div class="text-center p-3">
+                                <div class="text-center p-2">
                                     <img src="img/mmc-bldg-02.jpg" alt="MMC office facing Congress Expressway"
                                         width="230" />
                                 </div>
@@ -702,7 +711,7 @@
                         </div>
                         <div class="col-sm-12">
                             <div class="row p-3">
-                                <p>Our goal is to develop and sustain long-term customer relationships with our
+                                <p>We strive to develop and sustain long-term customer relationships with our
                                     experienced and knowledgeable employees, using safe work practices and the most
                                     up-to-date technologies.
                                 </p>
